@@ -1,0 +1,17 @@
+sample_data/*
+!sample_data/.gitkeep
+
+sample_output/*
+!sample_output/.gitkeep
+
+sample_gt/*
+!sample_gt/.gitkeep
+
+Media/*
+!Media/.gitkeep
+
+model/*
+!model/.gitkeep
+
+__pycache__/
+*.pyc
