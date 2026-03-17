@@ -10,8 +10,8 @@ sample_gt/*
 Media/*
 !Media/.gitkeep
 
-model/*
-!model/.gitkeep
+# model/*
+# !model/.gitkeep
 
 __pycache__/
 *.pyc
