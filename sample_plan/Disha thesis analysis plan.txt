@@ -1,0 +1,17 @@
+Disha thesis
+
+Plan
+
+1. Raw data cropping - dicom format
+	- check few samples
+	- check data format compatibility
+2. Run the DeepIVUS model from GitHub on the cropped data to get predicted masks. 
+	- set up conda env with tensorflow
+	- use code from laptop clone of the repo
+3. Visualize predicted masks and assess manually.
+4. Sort labels from GT - find out from model which labels are needed, create corresponding GT masks (needed for eval only).
+
+For Plaque analysis (to be done later)
+1. Find models for plaque assessment.
+2. Run those models and assess manually by visualizing.
+3. Plan radiomics based analysis of plaques if step 2 shows that plaque segmentation is good.
