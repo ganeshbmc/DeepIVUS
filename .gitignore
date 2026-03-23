@@ -4,8 +4,11 @@ sample_data/*
 sample_output/*
 !sample_output/.gitkeep
 
-sample_gt/*
-!sample_gt/.gitkeep
+sample_gt_cropped/*
+!sample_gt_cropped/.gitkeep
+
+sample_gt_uncropped/*
+!sample_gt_uncropped/.gitkeep
 
 Media/*
 !Media/.gitkeep
