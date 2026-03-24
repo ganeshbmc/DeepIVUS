@@ -1,0 +1,13 @@
+# Label conventions for IVUS AI
+
+## GT labels
+0 - background
+1 - lumen
+2 - vessel wall plus lumen (inconsistent)
+3 - plaque
+
+## Model inference labels
+0 - background (outside IVUS port view)
+1 - lumen
+2 - vessel wall
+3 - background (inside IVUS port view)

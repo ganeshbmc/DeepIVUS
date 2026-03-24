@@ -77,7 +77,7 @@ def load_excel_crop_params(excel_path: Path) -> dict:
             last_val = row[last_idx]
             if first_val is not None and last_val is not None:
                 # Excel is 1-indexed, convert to 0-indexed for Python (end is inclusive)
-                case_params[vl_name] = (int(first_val) - 1, int(last_val))
+                case_params[vl_name] = (int(first_val) - 1, int(last_val) - 1)
         
         if case_params:
             params[case_id] = case_params
