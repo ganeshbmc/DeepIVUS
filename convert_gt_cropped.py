@@ -100,29 +100,33 @@ def load_seg_nrrd(path: Path) -> np.ndarray:
 
 
 def merge_segments_to_multiclass(seg_volume: np.ndarray) -> np.ndarray:
-    """Merge segment layers into a single multi-class dense volume.
+    """Merge segment layers with priority: lumen > vessel > plaque.
     
     The .seg.nrrd contains multiple binary labelmaps stacked along axis 0.
-    We merge them into one volume where each pixel has a class ID:
-    - 0 = background (no segment)
-    - 1 = first segment (layer 0)
-    - 2 = second segment (layer 1)
-    - etc.
+    - Layer 0: lumen
+    - Layer 1: vessel_ob
+    - Layer 2: plaque
     
-    If multiple segments overlap at a pixel, the highest layer index wins.
+    Priority rules:
+    - Lumen wins over everything (label = 1)
+    - Vessel wall wins over plaque (label = 2)
+    - Plaque gets reassigned to lumen or vessel if overlaps exist
+    - Plaque-only pixels become background (label = 0)
     """
-    # seg_volume shape: (num_segments, H, W, F)
-    # Create output: start with 0 (background)
     num_segs, H, W, F = seg_volume.shape
     multiclass = np.zeros((H, W, F), dtype=np.uint8)
     
-    # For each segment layer, add its contribution
-    # Higher layer index = higher class label
-    for layer_idx in range(num_segs):
-        layer = seg_volume[layer_idx]
-        # Where this layer has label (non-zero), set class = layer_idx + 1
-        # Use max to handle overlaps (higher layer wins)
-        multiclass = np.maximum(multiclass, layer * (layer_idx + 1))
+    # Layer 0 (lumen) -> label 1
+    lumen = seg_volume[0]
+    multiclass = np.where(lumen == 1, 1, multiclass)
+    
+    # Layer 1 (vessel_ob) -> label 2
+    # Only set to 2 where not already lumen
+    vessel = seg_volume[1]
+    multiclass = np.where(vessel == 1, 2, multiclass)
+    
+    # Layer 2 (plaque) -> absorbed by lumen/vessel
+    # No action needed - plaque-only pixels remain 0 (background)
     
     return multiclass
 

@@ -18,3 +18,5 @@ Media/*
 
 __pycache__/
 *.pyc
+
+*.gz
