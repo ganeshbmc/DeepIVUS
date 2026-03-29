@@ -1,0 +1,1121 @@
+Logging to: sample_logs/convert_gt_cropped_log_29032026_0708.txt
+Started at: 2026-03-29T07:08:14
+Loading crop parameters from sample_excel/100_segmentation.xlsx...
+Found crop parameters for 100 cases
+Found 101 segmentation file(s)
+Processing 001_seg.nrrd (frames 150-1020)
+  loaded shape: (3, 512, 512, 1082)
+  cropped shape: (3, 512, 512, 871)
+  segment 0: name=lumen, canonical=lumen, layer=0, label=1, voxels=12269527
+  segment 1: name=vessel_ob, canonical=vessel_ob, layer=1, label=1, voxels=55038078
+  segment 2: name=plaque, canonical=plaque, layer=2, label=1, voxels=13878980
+  merged shape: (512, 512, 871)
+  QC: lumen=12269527, vessel_ob=55038078, vessel_wall=52580699, plaque=13878980
+  QC overlaps: lumen_outside_vessel=9812148, plaque_outside_vessel=1737297, plaque_overlap_lumen=1694431, plaque_overlap_vessel_wall=11731935
+  wrote: sample_gt_cropped/001/001_VL1_label_hwf.npy
+  wrote: sample_gt_cropped/001/001_VL1_label_hwf.nii.gz
+Processing 002_seg.nrrd (frames 460-1290)
+  loaded shape: (512, 512, 1423)
+  cropped shape: (512, 512, 831)
+  segment 0: name=lumen, canonical=lumen, layer=0, label=1, voxels=4945320
+  segment 1: name=vessel_ob, canonical=vessel_ob, layer=0, label=2, voxels=43189056
+  segment 2: name=plaque, canonical=plaque, layer=0, label=3, voxels=2481566
+  merged shape: (512, 512, 831)
+  QC: lumen=4945320, vessel_ob=43189056, vessel_wall=43189056, plaque=2481566
+  QC overlaps: lumen_outside_vessel=4945320, plaque_outside_vessel=2481566, plaque_overlap_lumen=0, plaque_overlap_vessel_wall=0
+  wrote: sample_gt_cropped/002/002_VL1_label_hwf.npy
+  wrote: sample_gt_cropped/002/002_VL1_label_hwf.nii.gz
+Processing 003_seg.nrrd (frames 600-1500)
+  loaded shape: (2, 512, 512, 1587)
+  cropped shape: (2, 512, 512, 901)
+  segment 0: name=lumen, canonical=lumen, layer=0, label=1, voxels=9076692
+  segment 1: name=vessel_ob, canonical=vessel_ob, layer=1, label=1, voxels=47085694
+  segment 2: name=plaque, canonical=plaque, layer=0, label=2, voxels=18582077
+  merged shape: (512, 512, 901)
+  QC: lumen=9076692, vessel_ob=47085694, vessel_wall=38040664, plaque=18582077
+  QC overlaps: lumen_outside_vessel=31662, plaque_outside_vessel=4595151, plaque_overlap_lumen=0, plaque_overlap_vessel_wall=13986926
+  wrote: sample_gt_cropped/003/003_VL1_label_hwf.npy
+  wrote: sample_gt_cropped/003/003_VL1_label_hwf.nii.gz
+Processing 004_seg.nrrd (frames 1-703)
+  loaded shape: (3, 512, 512, 779)
+  cropped shape: (3, 512, 512, 703)
+  segment 0: name=vesel_ob, canonical=vessel_ob, layer=0, label=2, voxels=41201947
+  segment 1: name=plaque, canonical=plaque, layer=1, label=1, voxels=9282330
+  segment 2: name=lumen, canonical=lumen, layer=2, label=1, voxels=8589576
+  note: mapped segment 'vesel_ob' to canonical name 'vessel_ob'
+  merged shape: (512, 512, 703)
+  QC: lumen=8589576, vessel_ob=41201947, vessel_wall=32617257, plaque=9282330
+  QC overlaps: lumen_outside_vessel=4886, plaque_outside_vessel=535936, plaque_overlap_lumen=243624, plaque_overlap_vessel_wall=8505224
+  wrote: sample_gt_cropped/004/004_VL1_label_hwf.npy
+  wrote: sample_gt_cropped/004/004_VL1_label_hwf.nii.gz
+Processing 005_seg.nrrd (frames 500-1030)
+  loaded shape: (2, 512, 512, 1149)
+  cropped shape: (2, 512, 512, 531)
+  segment 0: name=lumen, canonical=lumen, layer=0, label=1, voxels=5269409
+  segment 1: name=vessel_ob, canonical=vessel_ob, layer=1, label=1, voxels=34455085
+  segment 2: name=plaque, canonical=plaque, layer=0, label=2, voxels=15439292
+  merged shape: (512, 512, 531)
+  QC: lumen=5269409, vessel_ob=34455085, vessel_wall=33699112, plaque=15439292
+  QC overlaps: lumen_outside_vessel=4513436, plaque_outside_vessel=2554713, plaque_overlap_lumen=0, plaque_overlap_vessel_wall=12884579
+  wrote: sample_gt_cropped/005/005_VL1_label_hwf.npy
+  wrote: sample_gt_cropped/005/005_VL1_label_hwf.nii.gz
+Processing 006_seg.nrrd (frames 130-630)
+  loaded shape: (3, 512, 512, 792)
+  cropped shape: (3, 512, 512, 501)
+  segment 0: name=lumen, canonical=lumen, layer=0, label=1, voxels=7376355
+  segment 1: name=vessel_ob, canonical=vessel_ob, layer=1, label=1, voxels=38386168
+  segment 2: name=plaque, canonical=plaque, layer=2, label=1, voxels=16109860
+  merged shape: (512, 512, 501)
+  QC: lumen=7376355, vessel_ob=38386168, vessel_wall=31011960, plaque=16109860
+  QC overlaps: lumen_outside_vessel=2147, plaque_outside_vessel=44908, plaque_overlap_lumen=739306, plaque_overlap_vessel_wall=15327793
+  wrote: sample_gt_cropped/006/006_VL1_label_hwf.npy
+  wrote: sample_gt_cropped/006/006_VL1_label_hwf.nii.gz
+Processing 007_seg.nrrd (frames 280-700)
+  loaded shape: (3, 512, 512, 791)
+  cropped shape: (3, 512, 512, 421)
+  segment 0: name=lumen, canonical=lumen, layer=0, label=1, voxels=8143729
+  segment 1: name=vessel_ob, canonical=vessel_ob, layer=1, label=1, voxels=31000597
+  segment 2: name=plaque, canonical=plaque, layer=2, label=1, voxels=9455348
+  merged shape: (512, 512, 421)
+  QC: lumen=8143729, vessel_ob=31000597, vessel_wall=22856868, plaque=9455348
+  QC overlaps: lumen_outside_vessel=0, plaque_outside_vessel=40184, plaque_overlap_lumen=485186, plaque_overlap_vessel_wall=8929978
+  wrote: sample_gt_cropped/007/007_VL1_label_hwf.npy
+  wrote: sample_gt_cropped/007/007_VL1_label_hwf.nii.gz
+Processing 008_seg.nrrd (frames 1-672)
+  loaded shape: (2, 512, 512, 745)
+  cropped shape: (2, 512, 512, 672)
+  segment 0: name=lumen, canonical=lumen, layer=0, label=1, voxels=10094666
+  segment 1: name=vessel_ob, canonical=vessel_ob, layer=1, label=1, voxels=45145351
+  segment 2: name=plaque, canonical=plaque, layer=0, label=2, voxels=10322702
+  merged shape: (512, 512, 672)
+  QC: lumen=10094666, vessel_ob=45145351, vessel_wall=35070339, plaque=10322702
+  QC overlaps: lumen_outside_vessel=19654, plaque_outside_vessel=341936, plaque_overlap_lumen=0, plaque_overlap_vessel_wall=9980766
+  wrote: sample_gt_cropped/008/008_VL1_label_hwf.npy
+  wrote: sample_gt_cropped/008/008_VL1_label_hwf.nii.gz
+Processing 009_seg.nrrd (frames 1-495)
+  loaded shape: (3, 512, 512, 573)
+  cropped shape: (3, 512, 512, 495)
+  segment 0: name=lumen, canonical=lumen, layer=0, label=1, voxels=5815088
+  segment 1: name=vessel_ob, canonical=vessel_ob, layer=1, label=1, voxels=28049156
+  segment 2: name=plaque, canonical=plaque, layer=2, label=1, voxels=7430898
+  merged shape: (512, 512, 495)
+  QC: lumen=5815088, vessel_ob=28049156, vessel_wall=22234405, plaque=7430898
+  QC overlaps: lumen_outside_vessel=337, plaque_outside_vessel=209001, plaque_overlap_lumen=357379, plaque_overlap_vessel_wall=6864655
+  wrote: sample_gt_cropped/009/009_VL1_label_hwf.npy
+  wrote: sample_gt_cropped/009/009_VL1_label_hwf.nii.gz
+Processing 010_seg.nrrd (frames 1-600)
+  loaded shape: (3, 512, 512, 669)
+  cropped shape: (3, 512, 512, 600)
+  segment 0: name=lumen, canonical=lumen, layer=0, label=1, voxels=6110009
+  segment 1: name=vessel_ob, canonical=vessel_ob, layer=1, label=1, voxels=43137773
+  segment 2: name=plaque, canonical=plaque, layer=2, label=1, voxels=8599024
+  merged shape: (512, 512, 600)
+  QC: lumen=6110009, vessel_ob=43137773, vessel_wall=39172460, plaque=8599024
+  QC overlaps: lumen_outside_vessel=2144696, plaque_outside_vessel=396244, plaque_overlap_lumen=258274, plaque_overlap_vessel_wall=8020517
+  wrote: sample_gt_cropped/010/010_VL1_label_hwf.npy
+  wrote: sample_gt_cropped/010/010_VL1_label_hwf.nii.gz
+Processing 011_seg.nrrd (frames 1-430)
+  loaded shape: (3, 512, 512, 494)
+  cropped shape: (3, 512, 512, 430)
+  segment 0: name=lumen, canonical=lumen, layer=0, label=1, voxels=2654020
+  segment 1: name=vessel_ob, canonical=vessel_ob, layer=1, label=1, voxels=29578299
+  segment 2: name=plaque, canonical=plaque, layer=2, label=1, voxels=8292403
+  merged shape: (512, 512, 430)
+  QC: lumen=2654020, vessel_ob=29578299, vessel_wall=29483732, plaque=8292403
+  QC overlaps: lumen_outside_vessel=2559453, plaque_outside_vessel=1511343, plaque_overlap_lumen=181424, plaque_overlap_vessel_wall=6770053
+  wrote: sample_gt_cropped/011/011_VL1_label_hwf.npy
+  wrote: sample_gt_cropped/011/011_VL1_label_hwf.nii.gz
+Processing 012_seg.nrrd (frames 1-220)
+  loaded shape: (3, 512, 512, 254)
+  cropped shape: (3, 512, 512, 220)
+  segment 0: name=lumen, canonical=lumen, layer=0, label=1, voxels=4441788
+  segment 1: name=vessel_ob, canonical=vessel_ob, layer=1, label=1, voxels=17086659
+  segment 2: name=plaque, canonical=plaque, layer=2, label=1, voxels=5198377
+  merged shape: (512, 512, 220)
+  QC: lumen=4441788, vessel_ob=17086659, vessel_wall=14702253, plaque=5198377
+  QC overlaps: lumen_outside_vessel=2057382, plaque_outside_vessel=312503, plaque_overlap_lumen=406879, plaque_overlap_vessel_wall=4655198
+  wrote: sample_gt_cropped/012/012_VL1_label_hwf.npy
+  wrote: sample_gt_cropped/012/012_VL1_label_hwf.nii.gz
+Processing 013_seg.nrrd (frames 10-430)
+  loaded shape: (3, 512, 512, 556)
+  cropped shape: (3, 512, 512, 421)
+  segment 0: name=lumen, canonical=lumen, layer=0, label=1, voxels=3585149
+  segment 1: name=vessel_ob, canonical=vessel_ob, layer=1, label=1, voxels=33897065
+  segment 2: name=plaque, canonical=plaque, layer=2, label=1, voxels=8538448
+  merged shape: (512, 512, 421)
+  QC: lumen=3585149, vessel_ob=33897065, vessel_wall=30311930, plaque=8538448
+  QC overlaps: lumen_outside_vessel=14, plaque_outside_vessel=138672, plaque_overlap_lumen=234147, plaque_overlap_vessel_wall=8165643
+  wrote: sample_gt_cropped/013/013_VL1_label_hwf.npy
+  wrote: sample_gt_cropped/013/013_VL1_label_hwf.nii.gz
+Processing 014_seg.nrrd (frames 1-350)
+  loaded shape: (3, 512, 512, 556)
+  cropped shape: (3, 512, 512, 350)
+  segment 0: name=lumen, canonical=lumen, layer=0, label=1, voxels=3620793
+  segment 1: name=vessel_ob, canonical=vessel_ob, layer=1, label=1, voxels=22341166
+  segment 2: name=plaque, canonical=plaque, layer=2, label=1, voxels=8198822
+  merged shape: (512, 512, 350)
+  QC: lumen=3620793, vessel_ob=22341166, vessel_wall=18720615, plaque=8198822
+  QC overlaps: lumen_outside_vessel=242, plaque_outside_vessel=178688, plaque_overlap_lumen=337878, plaque_overlap_vessel_wall=7682326
+  wrote: sample_gt_cropped/014/014_VL1_label_hwf.npy
+  wrote: sample_gt_cropped/014/014_VL1_label_hwf.nii.gz
+Processing 015_seg.nrrd (frames 300-800)
+  loaded shape: (3, 512, 512, 1296)
+  cropped shape: (3, 512, 512, 501)
+  segment 0: name=lumen, canonical=lumen, layer=0, label=1, voxels=5800922
+  segment 1: name=vessel_ob, canonical=vessel_ob, layer=1, label=1, voxels=34002611
+  segment 2: name=plaque, canonical=plaque, layer=2, label=1, voxels=10305401
+  merged shape: (512, 512, 501)
+  QC: lumen=5800922, vessel_ob=34002611, vessel_wall=28203388, plaque=10305401
+  QC overlaps: lumen_outside_vessel=1699, plaque_outside_vessel=382224, plaque_overlap_lumen=779500, plaque_overlap_vessel_wall=9144858
+  wrote: sample_gt_cropped/015/015_VL1_label_hwf.npy
+  wrote: sample_gt_cropped/015/015_VL1_label_hwf.nii.gz
+Processing 016_seg.nrrd (frames 100-680)
+  loaded shape: (3, 512, 512, 765)
+  cropped shape: (3, 512, 512, 581)
+  segment 0: name=lumen, canonical=lumen, layer=0, label=1, voxels=8666273
+  segment 1: name=vessel_ob, canonical=vessel_ob, layer=1, label=1, voxels=49544404
+  segment 2: name=plaque, canonical=plaque, layer=2, label=1, voxels=19651933
+  merged shape: (512, 512, 581)
+  QC: lumen=8666273, vessel_ob=49544404, vessel_wall=40878131, plaque=19651933
+  QC overlaps: lumen_outside_vessel=0, plaque_outside_vessel=1688872, plaque_overlap_lumen=665481, plaque_overlap_vessel_wall=17297580
+  wrote: sample_gt_cropped/016/016_VL1_label_hwf.npy
+  wrote: sample_gt_cropped/016/016_VL1_label_hwf.nii.gz
+Processing 017_seg.nrrd (frames 1-350)
+  loaded shape: (3, 512, 512, 440)
+  cropped shape: (3, 512, 512, 350)
+  segment 0: name=lumen, canonical=lumen, layer=0, label=1, voxels=3571714
+  segment 1: name=vessel_ob, canonical=vessel_ob, layer=1, label=1, voxels=22766608
+  segment 2: name=plaque, canonical=plaque, layer=2, label=1, voxels=7768285
+  merged shape: (512, 512, 350)
+  QC: lumen=3571714, vessel_ob=22766608, vessel_wall=19204100, plaque=7768285
+  QC overlaps: lumen_outside_vessel=9206, plaque_outside_vessel=1324774, plaque_overlap_lumen=445945, plaque_overlap_vessel_wall=6004751
+  wrote: sample_gt_cropped/017/017_VL1_label_hwf.npy
+  wrote: sample_gt_cropped/017/017_VL1_label_hwf.nii.gz
+Processing 018_seg.nrrd (frames 1-700)
+  loaded shape: (3, 512, 512, 965)
+  cropped shape: (3, 512, 512, 700)
+  segment 0: name=lumen, canonical=lumen, layer=0, label=1, voxels=6629547
+  segment 1: name=vessel_ob, canonical=vessel_ob, layer=1, label=1, voxels=46441479
+  segment 2: name=plaque, canonical=plaque, layer=2, label=1, voxels=11706165
+  merged shape: (512, 512, 700)
+  QC: lumen=6629547, vessel_ob=46441479, vessel_wall=39811932, plaque=11706165
+  QC overlaps: lumen_outside_vessel=0, plaque_outside_vessel=20979, plaque_overlap_lumen=347244, plaque_overlap_vessel_wall=11337942
+  wrote: sample_gt_cropped/018/018_VL1_label_hwf.npy
+  wrote: sample_gt_cropped/018/018_VL1_label_hwf.nii.gz
+Processing 019_seg.nrrd (frames 1-600)
+  loaded shape: (3, 512, 512, 734)
+  cropped shape: (3, 512, 512, 600)
+  segment 0: name=lumen, canonical=lumen, layer=0, label=1, voxels=8059266
+  segment 1: name=veseel_ob, canonical=vessel_ob, layer=1, label=1, voxels=32554623
+  segment 2: name=plaque, canonical=plaque, layer=2, label=1, voxels=10945135
+  note: mapped segment 'veseel_ob' to canonical name 'vessel_ob'
+  merged shape: (512, 512, 600)
+  QC: lumen=8059266, vessel_ob=32554623, vessel_wall=24498718, plaque=10945135
+  QC overlaps: lumen_outside_vessel=3361, plaque_outside_vessel=171500, plaque_overlap_lumen=535256, plaque_overlap_vessel_wall=10240232
+  wrote: sample_gt_cropped/019/019_VL1_label_hwf.npy
+  wrote: sample_gt_cropped/019/019_VL1_label_hwf.nii.gz
+Processing 020_seg.nrrd (frames 1-570)
+  loaded shape: (3, 512, 512, 983)
+  cropped shape: (3, 512, 512, 570)
+  segment 0: name=lumen, canonical=lumen, layer=0, label=1, voxels=14507775
+  segment 1: name=vessel_ob, canonical=vessel_ob, layer=1, label=1, voxels=35511963
+  segment 2: name=plaque, canonical=plaque, layer=2, label=1, voxels=6302655
+  merged shape: (512, 512, 570)
+  QC: lumen=14507775, vessel_ob=35511963, vessel_wall=21004188, plaque=6302655
+  QC overlaps: lumen_outside_vessel=0, plaque_outside_vessel=1305277, plaque_overlap_lumen=566751, plaque_overlap_vessel_wall=4430627
+  wrote: sample_gt_cropped/020/020_VL1_label_hwf.npy
+  wrote: sample_gt_cropped/020/020_VL1_label_hwf.nii.gz
+Processing 021_seg.nrrd (frames 1-330)
+  loaded shape: (3, 512, 512, 402)
+  cropped shape: (3, 512, 512, 330)
+  segment 0: name=lumen, canonical=lumen, layer=0, label=1, voxels=2706267
+  segment 1: name=vessel_ob, canonical=vessel_ob, layer=1, label=1, voxels=17416057
+  segment 2: name=plaque, canonical=plaque, layer=2, label=1, voxels=7249520
+  merged shape: (512, 512, 330)
+  QC: lumen=2706267, vessel_ob=17416057, vessel_wall=14710829, plaque=7249520
+  QC overlaps: lumen_outside_vessel=1039, plaque_outside_vessel=475418, plaque_overlap_lumen=279752, plaque_overlap_vessel_wall=6495206
+  wrote: sample_gt_cropped/021/021_VL1_label_hwf.npy
+  wrote: sample_gt_cropped/021/021_VL1_label_hwf.nii.gz
+Processing 023_seg.nrrd (frames 250-650)
+  loaded shape: (3, 512, 512, 1404)
+  cropped shape: (3, 512, 512, 401)
+  segment 0: name=lumen, canonical=lumen, layer=0, label=1, voxels=4312448
+  segment 1: name=vessel_ob, canonical=vessel_ob, layer=1, label=1, voxels=18881839
+  segment 2: name=plaque, canonical=plaque, layer=2, label=1, voxels=8994140
+  merged shape: (512, 512, 401)
+  QC: lumen=4312448, vessel_ob=18881839, vessel_wall=14580914, plaque=8994140
+  QC overlaps: lumen_outside_vessel=11523, plaque_outside_vessel=2299548, plaque_overlap_lumen=206621, plaque_overlap_vessel_wall=6495155
+  wrote: sample_gt_cropped/023/023_VL1_label_hwf.npy
+  wrote: sample_gt_cropped/023/023_VL1_label_hwf.nii.gz
+Processing 024_seg.nrrd (frames 100-400)
+  loaded shape: (3, 512, 512, 470)
+  cropped shape: (3, 512, 512, 301)
+  segment 0: name=lumen, canonical=lumen, layer=0, label=1, voxels=3446203
+  segment 1: name=vessel_ob, canonical=vessel_ob, layer=1, label=1, voxels=15651222
+  segment 2: name=plaque, canonical=plaque, layer=2, label=1, voxels=6348874
+  merged shape: (512, 512, 301)
+  QC: lumen=3446203, vessel_ob=15651222, vessel_wall=12220188, plaque=6348874
+  QC overlaps: lumen_outside_vessel=15169, plaque_outside_vessel=2468264, plaque_overlap_lumen=245855, plaque_overlap_vessel_wall=3643134
+  wrote: sample_gt_cropped/024/024_VL1_label_hwf.npy
+  wrote: sample_gt_cropped/024/024_VL1_label_hwf.nii.gz
+Processing 025_seg.nrrd (frames 450-850)
+  loaded shape: (3, 512, 512, 1249)
+  cropped shape: (3, 512, 512, 401)
+  segment 0: name=lumen, canonical=lumen, layer=0, label=1, voxels=6247452
+  segment 1: name=vessel_ob, canonical=vessel_ob, layer=1, label=1, voxels=32433934
+  segment 2: name=plaque, canonical=plaque, layer=2, label=1, voxels=9301061
+  merged shape: (512, 512, 401)
+  QC: lumen=6247452, vessel_ob=32433934, vessel_wall=26186482, plaque=9301061
+  QC overlaps: lumen_outside_vessel=0, plaque_outside_vessel=0, plaque_overlap_lumen=348227, plaque_overlap_vessel_wall=8952834
+  wrote: sample_gt_cropped/025/025_VL1_label_hwf.npy
+  wrote: sample_gt_cropped/025/025_VL1_label_hwf.nii.gz
+Processing 026_seg.nrrd (frames 1-400)
+  loaded shape: (3, 512, 512, 609)
+  cropped shape: (3, 512, 512, 400)
+  segment 0: name=lumen, canonical=lumen, layer=0, label=1, voxels=7062276
+  segment 1: name=vessel_ob, canonical=vessel_ob, layer=1, label=1, voxels=27712307
+  segment 2: name=plaque, canonical=plaque, layer=2, label=1, voxels=8864778
+  merged shape: (512, 512, 400)
+  QC: lumen=7062276, vessel_ob=27712307, vessel_wall=20650031, plaque=8864778
+  QC overlaps: lumen_outside_vessel=0, plaque_outside_vessel=278570, plaque_overlap_lumen=397178, plaque_overlap_vessel_wall=8189030
+  wrote: sample_gt_cropped/026/026_VL1_label_hwf.npy
+  wrote: sample_gt_cropped/026/026_VL1_label_hwf.nii.gz
+Processing 027_seg.nrrd (frames 290-670)
+  loaded shape: (3, 512, 512, 1013)
+  cropped shape: (3, 512, 512, 381)
+  segment 0: name=lumen, canonical=lumen, layer=0, label=1, voxels=5208095
+  segment 1: name=vessel_ob, canonical=vessel_ob, layer=1, label=1, voxels=31717758
+  segment 2: name=plaque, canonical=plaque, layer=2, label=1, voxels=11243191
+  merged shape: (512, 512, 381)
+  QC: lumen=5208095, vessel_ob=31717758, vessel_wall=26511743, plaque=11243191
+  QC overlaps: lumen_outside_vessel=2080, plaque_outside_vessel=384773, plaque_overlap_lumen=330862, plaque_overlap_vessel_wall=10528450
+  wrote: sample_gt_cropped/027/027_VL1_label_hwf.npy
+  wrote: sample_gt_cropped/027/027_VL1_label_hwf.nii.gz
+Processing 028_seg.nrrd (frames 190-560)
+  loaded shape: (3, 512, 512, 714)
+  cropped shape: (3, 512, 512, 371)
+  segment 0: name=lumen, canonical=lumen, layer=0, label=1, voxels=3215784
+  segment 1: name=vessel_ob, canonical=vessel_ob, layer=1, label=1, voxels=17423498
+  segment 2: name=plaque, canonical=plaque, layer=2, label=1, voxels=4149461
+  merged shape: (512, 512, 371)
+  QC: lumen=3215784, vessel_ob=17423498, vessel_wall=14207714, plaque=4149461
+  QC overlaps: lumen_outside_vessel=0, plaque_outside_vessel=724423, plaque_overlap_lumen=170347, plaque_overlap_vessel_wall=3254691
+  wrote: sample_gt_cropped/028/028_VL1_label_hwf.npy
+  wrote: sample_gt_cropped/028/028_VL1_label_hwf.nii.gz
+Processing 029_seg.nrrd (frames 400-900)
+  loaded shape: (3, 512, 512, 1307)
+  cropped shape: (3, 512, 512, 501)
+  segment 0: name=lumen, canonical=lumen, layer=0, label=1, voxels=5416618
+  segment 1: name=vessel_ob, canonical=vessel_ob, layer=1, label=1, voxels=30992945
+  segment 2: name=plaque, canonical=plaque, layer=2, label=1, voxels=15444494
+  merged shape: (512, 512, 501)
+  QC: lumen=5416618, vessel_ob=30992945, vessel_wall=25585633, plaque=15444494
+  QC overlaps: lumen_outside_vessel=9306, plaque_outside_vessel=3358127, plaque_overlap_lumen=612967, plaque_overlap_vessel_wall=11481624
+  wrote: sample_gt_cropped/029/029_VL1_label_hwf.npy
+  wrote: sample_gt_cropped/029/029_VL1_label_hwf.nii.gz
+Processing 030_seg.nrrd (frames 1-340)
+  loaded shape: (3, 512, 512, 449)
+  cropped shape: (3, 512, 512, 340)
+  segment 0: name=lumen, canonical=lumen, layer=0, label=1, voxels=3433344
+  segment 1: name=vessel_ob, canonical=vessel_ob, layer=1, label=1, voxels=26162173
+  segment 2: name=plaque, canonical=plaque, layer=2, label=1, voxels=12226267
+  merged shape: (512, 512, 340)
+  QC: lumen=3433344, vessel_ob=26162173, vessel_wall=22730681, plaque=12226267
+  QC overlaps: lumen_outside_vessel=1852, plaque_outside_vessel=399458, plaque_overlap_lumen=202067, plaque_overlap_vessel_wall=11626144
+  wrote: sample_gt_cropped/030/030_VL1_label_hwf.npy
+  wrote: sample_gt_cropped/030/030_VL1_label_hwf.nii.gz
+Processing 031_seg.nrrd (frames 700-1300)
+  loaded shape: (3, 512, 512, 1419)
+  cropped shape: (3, 512, 512, 601)
+  segment 0: name=lumen, canonical=lumen, layer=0, label=1, voxels=5265138
+  segment 1: name=vessel_ob, canonical=vessel_ob, layer=1, label=1, voxels=40566523
+  segment 2: name=plaque, canonical=plaque, layer=2, label=1, voxels=19103607
+  merged shape: (512, 512, 601)
+  QC: lumen=5265138, vessel_ob=40566523, vessel_wall=35304185, plaque=19103607
+  QC overlaps: lumen_outside_vessel=2800, plaque_outside_vessel=1677017, plaque_overlap_lumen=632341, plaque_overlap_vessel_wall=16796650
+  wrote: sample_gt_cropped/031/031_VL1_label_hwf.npy
+  wrote: sample_gt_cropped/031/031_VL1_label_hwf.nii.gz
+Processing 032_seg.nrrd (frames 800-1200)
+  loaded shape: (3, 512, 512, 1625)
+  cropped shape: (3, 512, 512, 401)
+  segment 0: name=lumen, canonical=lumen, layer=0, label=1, voxels=8697054
+  segment 1: name=vessel_ob, canonical=vessel_ob, layer=1, label=1, voxels=30258247
+  segment 2: name=plaque, canonical=plaque, layer=2, label=1, voxels=14687376
+  merged shape: (512, 512, 401)
+  QC: lumen=8697054, vessel_ob=30258247, vessel_wall=22585008, plaque=14687376
+  QC overlaps: lumen_outside_vessel=1023815, plaque_outside_vessel=1359891, plaque_overlap_lumen=570318, plaque_overlap_vessel_wall=12761315
+  wrote: sample_gt_cropped/032/032_VL1_label_hwf.npy
+  wrote: sample_gt_cropped/032/032_VL1_label_hwf.nii.gz
+Processing 033_seg.nrrd (frames 250-800)
+  loaded shape: (3, 512, 512, 942)
+  cropped shape: (3, 512, 512, 551)
+  segment 0: name=lumen, canonical=lumen, layer=0, label=1, voxels=5547500
+  segment 1: name=vessel_ob, canonical=vessel_ob, layer=1, label=1, voxels=31097008
+  segment 2: name=plaque, canonical=plaque, layer=2, label=1, voxels=9388656
+  merged shape: (512, 512, 551)
+  QC: lumen=5547500, vessel_ob=31097008, vessel_wall=25549508, plaque=9388656
+  QC overlaps: lumen_outside_vessel=0, plaque_outside_vessel=80280, plaque_overlap_lumen=449232, plaque_overlap_vessel_wall=8859144
+  wrote: sample_gt_cropped/033/033_VL1_label_hwf.npy
+  wrote: sample_gt_cropped/033/033_VL1_label_hwf.nii.gz
+Processing 034_seg.nrrd (frames 600-950)
+  loaded shape: (3, 512, 512, 1622)
+  cropped shape: (3, 512, 512, 351)
+  segment 0: name=lumen, canonical=lumen, layer=0, label=1, voxels=5819833
+  segment 1: name=vessel_ob, canonical=vessel_ob, layer=1, label=1, voxels=26028261
+  segment 2: name=plaque, canonical=plaque, layer=2, label=1, voxels=8255830
+  merged shape: (512, 512, 351)
+  QC: lumen=5819833, vessel_ob=26028261, vessel_wall=20208428, plaque=8255830
+  QC overlaps: lumen_outside_vessel=0, plaque_outside_vessel=0, plaque_overlap_lumen=462344, plaque_overlap_vessel_wall=7793486
+  wrote: sample_gt_cropped/034/034_VL1_label_hwf.npy
+  wrote: sample_gt_cropped/034/034_VL1_label_hwf.nii.gz
+Processing 035_seg.nrrd (frames 200-600)
+  loaded shape: (3, 512, 512, 864)
+  cropped shape: (3, 512, 512, 401)
+  segment 0: name=lumen, canonical=lumen, layer=0, label=1, voxels=2688098
+  segment 1: name=vessel_ob, canonical=vessel_ob, layer=1, label=1, voxels=20296918
+  segment 2: name=plaque, canonical=plaque, layer=2, label=1, voxels=10146919
+  merged shape: (512, 512, 401)
+  QC: lumen=2688098, vessel_ob=20296918, vessel_wall=17621678, plaque=10146919
+  QC overlaps: lumen_outside_vessel=12858, plaque_outside_vessel=1208405, plaque_overlap_lumen=250786, plaque_overlap_vessel_wall=8697549
+  wrote: sample_gt_cropped/035/035_VL1_label_hwf.npy
+  wrote: sample_gt_cropped/035/035_VL1_label_hwf.nii.gz
+Processing 036_VL1_seg.nrrd (frames 450-900)
+  loaded shape: (3, 512, 512, 1017)
+  cropped shape: (3, 512, 512, 451)
+  segment 0: name=lumen, canonical=lumen, layer=0, label=1, voxels=6641594
+  segment 1: name=vessel_ob, canonical=vessel_ob, layer=1, label=1, voxels=25400798
+  segment 2: name=plaque, canonical=plaque, layer=2, label=1, voxels=11688828
+  merged shape: (512, 512, 451)
+  QC: lumen=6641594, vessel_ob=25400798, vessel_wall=18777872, plaque=11688828
+  QC overlaps: lumen_outside_vessel=18668, plaque_outside_vessel=2189224, plaque_overlap_lumen=400882, plaque_overlap_vessel_wall=9111190
+  wrote: sample_gt_cropped/036/036_VL1_label_hwf.npy
+  wrote: sample_gt_cropped/036/036_VL1_label_hwf.nii.gz
+Processing 036_VL2_seg.nrrd (frames 200-750)
+  loaded shape: (3, 512, 512, 1020)
+  cropped shape: (3, 512, 512, 551)
+  segment 0: name=lumen, canonical=lumen, layer=0, label=1, voxels=8834808
+  segment 1: name=vessel_ob, canonical=vessel_ob, layer=1, label=1, voxels=39270656
+  segment 2: name=plaque, canonical=plaque, layer=2, label=1, voxels=13577731
+  merged shape: (512, 512, 551)
+  QC: lumen=8834808, vessel_ob=39270656, vessel_wall=30451976, plaque=13577731
+  QC overlaps: lumen_outside_vessel=16128, plaque_outside_vessel=1108104, plaque_overlap_lumen=746357, plaque_overlap_vessel_wall=11732772
+  wrote: sample_gt_cropped/036/036_VL2_label_hwf.npy
+  wrote: sample_gt_cropped/036/036_VL2_label_hwf.nii.gz
+Processing 037_seg.nrrd (frames 300-700)
+  loaded shape: (3, 512, 512, 892)
+  cropped shape: (3, 512, 512, 401)
+  segment 0: name=lumen, canonical=lumen, layer=0, label=1, voxels=4669392
+  segment 1: name=vessel_ob, canonical=vessel_ob, layer=1, label=1, voxels=29530155
+  segment 2: name=plaque, canonical=plaque, layer=2, label=1, voxels=9714319
+  merged shape: (512, 512, 401)
+  QC: lumen=4669392, vessel_ob=29530155, vessel_wall=24860763, plaque=9714319
+  QC overlaps: lumen_outside_vessel=0, plaque_outside_vessel=8917, plaque_overlap_lumen=764451, plaque_overlap_vessel_wall=8940951
+  wrote: sample_gt_cropped/037/037_VL1_label_hwf.npy
+  wrote: sample_gt_cropped/037/037_VL1_label_hwf.nii.gz
+Processing 038_seg.nrrd (frames 350-800)
+  loaded shape: (3, 512, 512, 876)
+  cropped shape: (3, 512, 512, 451)
+  segment 0: name=lumen, canonical=lumen, layer=0, label=1, voxels=5885955
+  segment 1: name=vessel_ob, canonical=vessel_ob, layer=1, label=1, voxels=30790798
+  segment 2: name=plaque, canonical=plaque, layer=2, label=1, voxels=6571788
+  merged shape: (512, 512, 451)
+  QC: lumen=5885955, vessel_ob=30790798, vessel_wall=24906032, plaque=6571788
+  QC overlaps: lumen_outside_vessel=1189, plaque_outside_vessel=80544, plaque_overlap_lumen=487381, plaque_overlap_vessel_wall=6004687
+  wrote: sample_gt_cropped/038/038_VL1_label_hwf.npy
+  wrote: sample_gt_cropped/038/038_VL1_label_hwf.nii.gz
+Processing 039_seg.nrrd (frames 350-800)
+  loaded shape: (3, 512, 512, 1112)
+  cropped shape: (3, 512, 512, 451)
+  segment 0: name=lumen, canonical=lumen, layer=0, label=1, voxels=5620829
+  segment 1: name=vessel_ob, canonical=vessel_ob, layer=1, label=1, voxels=27379560
+  segment 2: name=plaque, canonical=plaque, layer=2, label=1, voxels=12291684
+  merged shape: (512, 512, 451)
+  QC: lumen=5620829, vessel_ob=27379560, vessel_wall=21758922, plaque=12291684
+  QC overlaps: lumen_outside_vessel=191, plaque_outside_vessel=1356262, plaque_overlap_lumen=482587, plaque_overlap_vessel_wall=10453013
+  wrote: sample_gt_cropped/039/039_VL1_label_hwf.npy
+  wrote: sample_gt_cropped/039/039_VL1_label_hwf.nii.gz
+Processing 040_seg.nrrd (frames 150-550)
+  loaded shape: (3, 512, 512, 736)
+  cropped shape: (3, 512, 512, 401)
+  segment 0: name=lumen, canonical=lumen, layer=0, label=1, voxels=3477154
+  segment 1: name=vessel_ob, canonical=vessel_ob, layer=1, label=1, voxels=26395793
+  segment 2: name=plaque, canonical=plaque, layer=2, label=1, voxels=10913303
+  merged shape: (512, 512, 401)
+  QC: lumen=3477154, vessel_ob=26395793, vessel_wall=22938228, plaque=10913303
+  QC overlaps: lumen_outside_vessel=19589, plaque_outside_vessel=1375630, plaque_overlap_lumen=293431, plaque_overlap_vessel_wall=9250566
+  wrote: sample_gt_cropped/040/040_VL1_label_hwf.npy
+  wrote: sample_gt_cropped/040/040_VL1_label_hwf.nii.gz
+Processing 041_seg.nrrd (frames 300-920)
+  loaded shape: (3, 512, 512, 1154)
+  cropped shape: (3, 512, 512, 621)
+  segment 0: name=lumen, canonical=lumen, layer=0, label=1, voxels=2450123
+  segment 1: name=vessel_ob, canonical=vessel_ob, layer=1, label=1, voxels=19752167
+  segment 2: name=plaque, canonical=plaque, layer=2, label=1, voxels=8048706
+  merged shape: (512, 512, 621)
+  QC: lumen=2450123, vessel_ob=19752167, vessel_wall=17302044, plaque=8048706
+  QC overlaps: lumen_outside_vessel=0, plaque_outside_vessel=1401, plaque_overlap_lumen=38058, plaque_overlap_vessel_wall=8009247
+  wrote: sample_gt_cropped/041/041_VL1_label_hwf.npy
+  wrote: sample_gt_cropped/041/041_VL1_label_hwf.nii.gz
+Processing 042_seg.nrrd (frames 150-500)
+  loaded shape: (3, 512, 512, 1077)
+  cropped shape: (3, 512, 512, 351)
+  segment 0: name=lumen, canonical=lumen, layer=0, label=1, voxels=3274025
+  segment 1: name=vessel_ob, canonical=vessel_ob, layer=1, label=1, voxels=28035293
+  segment 2: name=plaque, canonical=plaque, layer=2, label=1, voxels=10515076
+  merged shape: (512, 512, 351)
+  QC: lumen=3274025, vessel_ob=28035293, vessel_wall=24761633, plaque=10515076
+  QC overlaps: lumen_outside_vessel=365, plaque_outside_vessel=415661, plaque_overlap_lumen=132846, plaque_overlap_vessel_wall=9966901
+  wrote: sample_gt_cropped/042/042_VL1_label_hwf.npy
+  wrote: sample_gt_cropped/042/042_VL1_label_hwf.nii.gz
+Processing 044_VL1_seg.nrrd (frames 250-650)
+  loaded shape: (3, 512, 512, 901)
+  cropped shape: (3, 512, 512, 401)
+  segment 0: name=lumen, canonical=lumen, layer=0, label=1, voxels=3579490
+  segment 1: name=vessel_ob, canonical=vessel_ob, layer=1, label=1, voxels=27790627
+  segment 2: name=plaque, canonical=plaque, layer=2, label=1, voxels=10352517
+  merged shape: (512, 512, 401)
+  QC: lumen=3579490, vessel_ob=27790627, vessel_wall=24211137, plaque=10352517
+  QC overlaps: lumen_outside_vessel=0, plaque_outside_vessel=25308, plaque_overlap_lumen=305618, plaque_overlap_vessel_wall=10021591
+  wrote: sample_gt_cropped/044/044_VL1_label_hwf.npy
+  wrote: sample_gt_cropped/044/044_VL1_label_hwf.nii.gz
+Processing 044_VL2_seg.nrrd (frames 150-550)
+  loaded shape: (3, 512, 512, 951)
+  cropped shape: (3, 512, 512, 401)
+  segment 0: name=lumen, canonical=lumen, layer=0, label=1, voxels=5319494
+  segment 1: name=vessel_ob, canonical=vessel_ob, layer=1, label=1, voxels=29189516
+  segment 2: name=plaque, canonical=plaque, layer=2, label=1, voxels=8827933
+  merged shape: (512, 512, 401)
+  QC: lumen=5319494, vessel_ob=29189516, vessel_wall=23870022, plaque=8827933
+  QC overlaps: lumen_outside_vessel=0, plaque_outside_vessel=14923, plaque_overlap_lumen=493391, plaque_overlap_vessel_wall=8319619
+  wrote: sample_gt_cropped/044/044_VL2_label_hwf.npy
+  wrote: sample_gt_cropped/044/044_VL2_label_hwf.nii.gz
+Processing 045_seg.nrrd (frames 200-550)
+  loaded shape: (3, 512, 512, 851)
+  cropped shape: (3, 512, 512, 351)
+  segment 0: name=lumen, canonical=lumen, layer=0, label=1, voxels=5380677
+  segment 1: name=vessel_ob, canonical=vessel_ob, layer=1, label=1, voxels=30394900
+  segment 2: name=plaque, canonical=plaque, layer=2, label=1, voxels=8787621
+  merged shape: (512, 512, 351)
+  QC: lumen=5380677, vessel_ob=30394900, vessel_wall=25016235, plaque=8787621
+  QC overlaps: lumen_outside_vessel=2012, plaque_outside_vessel=172467, plaque_overlap_lumen=471206, plaque_overlap_vessel_wall=8144380
+  wrote: sample_gt_cropped/045/045_VL1_label_hwf.npy
+  wrote: sample_gt_cropped/045/045_VL1_label_hwf.nii.gz
+Processing 046_seg.nrrd (frames 200-550)
+  loaded shape: (2, 512, 512, 1154)
+  cropped shape: (2, 512, 512, 351)
+  segment 0: name=lumen, canonical=lumen, layer=0, label=1, voxels=3174973
+  segment 1: name=vessel_ob, canonical=vessel_ob, layer=1, label=1, voxels=17637878
+  segment 2: name=plaque, canonical=plaque, layer=0, label=2, voxels=4114824
+  merged shape: (512, 512, 351)
+  QC: lumen=3174973, vessel_ob=17637878, vessel_wall=14468171, plaque=4114824
+  QC overlaps: lumen_outside_vessel=5266, plaque_outside_vessel=9539, plaque_overlap_lumen=0, plaque_overlap_vessel_wall=4105285
+  wrote: sample_gt_cropped/046/046_VL1_label_hwf.npy
+  wrote: sample_gt_cropped/046/046_VL1_label_hwf.nii.gz
+Processing 047_seg.nrrd (frames 500-1000)
+  loaded shape: (3, 512, 512, 1544)
+  cropped shape: (3, 512, 512, 501)
+  segment 0: name=lumen, canonical=lumen, layer=0, label=1, voxels=4374718
+  segment 1: name=vessel_ob, canonical=vessel_ob, layer=1, label=1, voxels=32659697
+  segment 2: name=plaque, canonical=plaque, layer=2, label=1, voxels=5411300
+  merged shape: (512, 512, 501)
+  QC: lumen=4374718, vessel_ob=32659697, vessel_wall=28284979, plaque=5411300
+  QC overlaps: lumen_outside_vessel=0, plaque_outside_vessel=698, plaque_overlap_lumen=342649, plaque_overlap_vessel_wall=5067953
+  wrote: sample_gt_cropped/047/047_VL1_label_hwf.npy
+  wrote: sample_gt_cropped/047/047_VL1_label_hwf.nii.gz
+Processing 048_seg.nrrd (frames 250-650)
+  loaded shape: (3, 512, 512, 908)
+  cropped shape: (3, 512, 512, 401)
+  segment 0: name=lumen, canonical=lumen, layer=0, label=1, voxels=4759021
+  segment 1: name=vessel_ob, canonical=vessel_ob, layer=1, label=1, voxels=27978642
+  segment 2: name=plaque, canonical=plaque, layer=2, label=1, voxels=9715325
+  merged shape: (512, 512, 401)
+  QC: lumen=4759021, vessel_ob=27978642, vessel_wall=23220039, plaque=9715325
+  QC overlaps: lumen_outside_vessel=418, plaque_outside_vessel=576769, plaque_overlap_lumen=178054, plaque_overlap_vessel_wall=8960795
+  wrote: sample_gt_cropped/048/048_VL1_label_hwf.npy
+  wrote: sample_gt_cropped/048/048_VL1_label_hwf.nii.gz
+Processing 049_seg.nrrd (frames 1-299)
+  loaded shape: (2, 512, 512, 360)
+  cropped shape: (2, 512, 512, 299)
+  segment 0: name=lumen, canonical=lumen, layer=0, label=1, voxels=4564626
+  segment 1: name=vessel_ob, canonical=vessel_ob, layer=1, label=1, voxels=11248326
+  segment 2: name=plauqe, canonical=plaque, layer=0, label=2, voxels=8190180
+  note: mapped segment 'plauqe' to canonical name 'plaque'
+  merged shape: (512, 512, 299)
+  QC: lumen=4564626, vessel_ob=11248326, vessel_wall=6749339, plaque=8190180
+  QC overlaps: lumen_outside_vessel=65639, plaque_outside_vessel=4561626, plaque_overlap_lumen=0, plaque_overlap_vessel_wall=3628554
+  wrote: sample_gt_cropped/049/049_VL1_label_hwf.npy
+  wrote: sample_gt_cropped/049/049_VL1_label_hwf.nii.gz
+Processing 050_seg.nrrd (frames 1-300)
+  loaded shape: (3, 512, 512, 435)
+  cropped shape: (3, 512, 512, 300)
+  segment 0: name=lumen, canonical=lumen, layer=0, label=1, voxels=4748534
+  segment 1: name=vessel_ob, canonical=vessel_ob, layer=1, label=1, voxels=22317365
+  segment 2: name=plaque, canonical=plaque, layer=2, label=1, voxels=9201996
+  merged shape: (512, 512, 300)
+  QC: lumen=4748534, vessel_ob=22317365, vessel_wall=17569960, plaque=9201996
+  QC overlaps: lumen_outside_vessel=1129, plaque_outside_vessel=861826, plaque_overlap_lumen=218, plaque_overlap_vessel_wall=8339952
+  wrote: sample_gt_cropped/050/050_VL1_label_hwf.npy
+  wrote: sample_gt_cropped/050/050_VL1_label_hwf.nii.gz
+Processing 051_seg.nrrd (frames 100-500)
+  loaded shape: (2, 512, 512, 854)
+  cropped shape: (2, 512, 512, 401)
+  segment 0: name=lumen, canonical=lumen, layer=0, label=1, voxels=4902510
+  segment 1: name=vessel_ob, canonical=vessel_ob, layer=1, label=1, voxels=26881309
+  segment 2: name=plaque, canonical=plaque, layer=0, label=2, voxels=10985334
+  merged shape: (512, 512, 401)
+  QC: lumen=4902510, vessel_ob=26881309, vessel_wall=21991010, plaque=10985334
+  QC overlaps: lumen_outside_vessel=12211, plaque_outside_vessel=1326670, plaque_overlap_lumen=0, plaque_overlap_vessel_wall=9658664
+  wrote: sample_gt_cropped/051/051_VL1_label_hwf.npy
+  wrote: sample_gt_cropped/051/051_VL1_label_hwf.nii.gz
+Processing 052_seg.nrrd (frames 1-360)
+  loaded shape: (2, 512, 512, 606)
+  cropped shape: (2, 512, 512, 360)
+  segment 0: name=vessel_ob, canonical=vessel_ob, layer=0, label=2, voxels=33835674
+  segment 1: name=lumen, canonical=lumen, layer=1, label=1, voxels=4594388
+  segment 2: name=plaque, canonical=plaque, layer=1, label=2, voxels=12292519
+  merged shape: (512, 512, 360)
+  QC: lumen=4594388, vessel_ob=33835674, vessel_wall=29241286, plaque=12292519
+  QC overlaps: lumen_outside_vessel=0, plaque_outside_vessel=5218, plaque_overlap_lumen=0, plaque_overlap_vessel_wall=12287301
+  wrote: sample_gt_cropped/052/052_VL1_label_hwf.npy
+  wrote: sample_gt_cropped/052/052_VL1_label_hwf.nii.gz
+Warning: No crop params for 053/VL2, skipping
+Processing 055_seg.nrrd (frames 150-600)
+  loaded shape: (2, 512, 512, 1096)
+  cropped shape: (2, 512, 512, 451)
+  segment 0: name=lumen, canonical=lumen, layer=0, label=1, voxels=6032651
+  segment 1: name=vessel_ob, canonical=vessel_ob, layer=1, label=1, voxels=35100336
+  segment 2: name=plaque, canonical=plaque, layer=0, label=2, voxels=16416381
+  merged shape: (512, 512, 451)
+  QC: lumen=6032651, vessel_ob=35100336, vessel_wall=29069651, plaque=16416381
+  QC overlaps: lumen_outside_vessel=1966, plaque_outside_vessel=1193741, plaque_overlap_lumen=0, plaque_overlap_vessel_wall=15222640
+  wrote: sample_gt_cropped/055/055_VL1_label_hwf.npy
+  wrote: sample_gt_cropped/055/055_VL1_label_hwf.nii.gz
+Processing 056_seg.nrrd (frames 450-850)
+  loaded shape: (2, 512, 512, 1452)
+  cropped shape: (2, 512, 512, 401)
+  segment 0: name=lumen, canonical=lumen, layer=0, label=1, voxels=4961185
+  segment 1: name=vessel_ob, canonical=vessel_ob, layer=1, label=1, voxels=29164372
+  segment 2: name=plaque, canonical=plaque, layer=0, label=2, voxels=15121774
+  merged shape: (512, 512, 401)
+  QC: lumen=4961185, vessel_ob=29164372, vessel_wall=24203187, plaque=15121774
+  QC overlaps: lumen_outside_vessel=0, plaque_outside_vessel=1396354, plaque_overlap_lumen=0, plaque_overlap_vessel_wall=13725420
+  wrote: sample_gt_cropped/056/056_VL1_label_hwf.npy
+  wrote: sample_gt_cropped/056/056_VL1_label_hwf.nii.gz
+Processing 057_seg.nrrd (frames 1-400)
+  loaded shape: (2, 512, 512, 750)
+  cropped shape: (2, 512, 512, 400)
+  segment 0: name=lumen, canonical=lumen, layer=0, label=1, voxels=4633328
+  segment 1: name=vessel_ob, canonical=vessel_ob, layer=1, label=1, voxels=27759322
+  segment 2: name=plaque, canonical=plaque, layer=0, label=2, voxels=7511980
+  merged shape: (512, 512, 400)
+  QC: lumen=4633328, vessel_ob=27759322, vessel_wall=23127508, plaque=7511980
+  QC overlaps: lumen_outside_vessel=1514, plaque_outside_vessel=375945, plaque_overlap_lumen=0, plaque_overlap_vessel_wall=7136035
+  wrote: sample_gt_cropped/057/057_VL1_label_hwf.npy
+  wrote: sample_gt_cropped/057/057_VL1_label_hwf.nii.gz
+Processing 058_seg.nrrd (frames 250-600)
+  loaded shape: (2, 512, 512, 723)
+  cropped shape: (2, 512, 512, 351)
+  segment 0: name=lumen, canonical=lumen, layer=0, label=1, voxels=5461154
+  segment 1: name=vessel_ob, canonical=vessel_ob, layer=1, label=1, voxels=31450558
+  segment 2: name=plaque, canonical=plaque, layer=0, label=2, voxels=13068177
+  merged shape: (512, 512, 351)
+  QC: lumen=5461154, vessel_ob=31450558, vessel_wall=25989404, plaque=13068177
+  QC overlaps: lumen_outside_vessel=0, plaque_outside_vessel=881553, plaque_overlap_lumen=0, plaque_overlap_vessel_wall=12186624
+  wrote: sample_gt_cropped/058/058_VL1_label_hwf.npy
+  wrote: sample_gt_cropped/058/058_VL1_label_hwf.nii.gz
+Processing 059_VL1_seg.nrrd (frames 50-400)
+  loaded shape: (3, 512, 512, 508)
+  cropped shape: (3, 512, 512, 351)
+  segment 0: name=lumen, canonical=lumen, layer=0, label=1, voxels=2953170
+  segment 1: name=vessel_ob, canonical=vessel_ob, layer=1, label=1, voxels=23779336
+  segment 2: name=plaque, canonical=plaque, layer=2, label=1, voxels=8410829
+  merged shape: (512, 512, 351)
+  QC: lumen=2953170, vessel_ob=23779336, vessel_wall=20826166, plaque=8410829
+  QC overlaps: lumen_outside_vessel=0, plaque_outside_vessel=2837, plaque_overlap_lumen=571, plaque_overlap_vessel_wall=8407421
+  wrote: sample_gt_cropped/059/059_VL1_label_hwf.npy
+  wrote: sample_gt_cropped/059/059_VL1_label_hwf.nii.gz
+Processing 059_VL2_seg.nrrd (frames 1-400)
+  loaded shape: (3, 512, 512, 813)
+  cropped shape: (3, 512, 512, 400)
+  segment 0: name=lumen, canonical=lumen, layer=0, label=1, voxels=6544587
+  segment 1: name=vessel_ob, canonical=vessel_ob, layer=1, label=1, voxels=32351957
+  segment 2: name=plaque, canonical=plaque, layer=2, label=1, voxels=9243656
+  merged shape: (512, 512, 400)
+  QC: lumen=6544587, vessel_ob=32351957, vessel_wall=25807370, plaque=9243656
+  QC overlaps: lumen_outside_vessel=0, plaque_outside_vessel=55976, plaque_overlap_lumen=145206, plaque_overlap_vessel_wall=9042474
+  wrote: sample_gt_cropped/059/059_VL2_label_hwf.npy
+  wrote: sample_gt_cropped/059/059_VL2_label_hwf.nii.gz
+Processing 060_seg.nrrd (frames 1-400)
+  loaded shape: (2, 512, 512, 1015)
+  cropped shape: (2, 512, 512, 400)
+  segment 0: name=lumen, canonical=lumen, layer=0, label=1, voxels=5028642
+  segment 1: name=vessel_ob, canonical=vessel_ob, layer=1, label=1, voxels=30268332
+  segment 2: name=plaque, canonical=plaque, layer=0, label=2, voxels=7426209
+  merged shape: (512, 512, 400)
+  QC: lumen=5028642, vessel_ob=30268332, vessel_wall=25240372, plaque=7426209
+  QC overlaps: lumen_outside_vessel=682, plaque_outside_vessel=118958, plaque_overlap_lumen=0, plaque_overlap_vessel_wall=7307251
+  wrote: sample_gt_cropped/060/060_VL1_label_hwf.npy
+  wrote: sample_gt_cropped/060/060_VL1_label_hwf.nii.gz
+Processing 061_seg.nrrd (frames 1-350)
+  loaded shape: (2, 512, 512, 719)
+  cropped shape: (2, 512, 512, 350)
+  segment 0: name=lumen, canonical=lumen, layer=0, label=1, voxels=5870194
+  segment 1: name=vessel_ob, canonical=vessel_ob, layer=1, label=1, voxels=34654415
+  segment 2: name=plaque, canonical=plaque, layer=0, label=2, voxels=5547293
+  merged shape: (512, 512, 350)
+  QC: lumen=5870194, vessel_ob=34654415, vessel_wall=28784221, plaque=5547293
+  QC overlaps: lumen_outside_vessel=0, plaque_outside_vessel=169, plaque_overlap_lumen=0, plaque_overlap_vessel_wall=5547124
+  wrote: sample_gt_cropped/061/061_VL1_label_hwf.npy
+  wrote: sample_gt_cropped/061/061_VL1_label_hwf.nii.gz
+Processing 062_VL1_seg.nrrd (frames 1-230)
+  loaded shape: (2, 512, 512, 375)
+  cropped shape: (2, 512, 512, 230)
+  segment 0: name=lumen, canonical=lumen, layer=0, label=1, voxels=2078496
+  segment 1: name=vessel_ob, canonical=vessel_ob, layer=1, label=1, voxels=11217752
+  segment 2: name=plaque, canonical=plaque, layer=0, label=2, voxels=5765967
+  merged shape: (512, 512, 230)
+  QC: lumen=2078496, vessel_ob=11217752, vessel_wall=9139256, plaque=5765967
+  QC overlaps: lumen_outside_vessel=0, plaque_outside_vessel=511179, plaque_overlap_lumen=0, plaque_overlap_vessel_wall=5254788
+  wrote: sample_gt_cropped/062/062_VL1_label_hwf.npy
+  wrote: sample_gt_cropped/062/062_VL1_label_hwf.nii.gz
+Processing 062_VL2_seg.nrrd (frames 250-600)
+  loaded shape: (2, 512, 512, 1023)
+  cropped shape: (2, 512, 512, 351)
+  segment 0: name=lumen, canonical=lumen, layer=0, label=1, voxels=4420692
+  segment 1: name=vessel_ob, canonical=vessel_ob, layer=1, label=1, voxels=32919006
+  segment 2: name=plaque, canonical=plaque, layer=0, label=2, voxels=13022536
+  merged shape: (512, 512, 351)
+  QC: lumen=4420692, vessel_ob=32919006, vessel_wall=28498314, plaque=13022536
+  QC overlaps: lumen_outside_vessel=0, plaque_outside_vessel=0, plaque_overlap_lumen=0, plaque_overlap_vessel_wall=13022536
+  wrote: sample_gt_cropped/062/062_VL2_label_hwf.npy
+  wrote: sample_gt_cropped/062/062_VL2_label_hwf.nii.gz
+Processing 063_seg.nrrd (frames 150-500)
+  loaded shape: (2, 512, 512, 939)
+  cropped shape: (2, 512, 512, 351)
+  segment 0: name=lumen, canonical=lumen, layer=0, label=1, voxels=3012604
+  segment 1: name=vessel_ob, canonical=vessel_ob, layer=1, label=1, voxels=30702371
+  segment 2: name=plaque, canonical=plaque, layer=0, label=2, voxels=8502775
+  merged shape: (512, 512, 351)
+  QC: lumen=3012604, vessel_ob=30702371, vessel_wall=27689824, plaque=8502775
+  QC overlaps: lumen_outside_vessel=57, plaque_outside_vessel=1457964, plaque_overlap_lumen=0, plaque_overlap_vessel_wall=7044811
+  wrote: sample_gt_cropped/063/063_VL1_label_hwf.npy
+  wrote: sample_gt_cropped/063/063_VL1_label_hwf.nii.gz
+Processing 064_seg.nrrd (frames 1-400)
+  loaded shape: (2, 512, 512, 1318)
+  cropped shape: (2, 512, 512, 400)
+  segment 0: name=lumen, canonical=lumen, layer=0, label=1, voxels=4469874
+  segment 1: name=vessel_ob, canonical=vessel_ob, layer=1, label=1, voxels=22995986
+  segment 2: name=plaque, canonical=plaque, layer=0, label=2, voxels=13523368
+  merged shape: (512, 512, 400)
+  QC: lumen=4469874, vessel_ob=22995986, vessel_wall=18533292, plaque=13523368
+  QC overlaps: lumen_outside_vessel=7180, plaque_outside_vessel=3592405, plaque_overlap_lumen=0, plaque_overlap_vessel_wall=9930963
+  wrote: sample_gt_cropped/064/064_VL1_label_hwf.npy
+  wrote: sample_gt_cropped/064/064_VL1_label_hwf.nii.gz
+Processing 065_seg.nrrd (frames 350-700)
+  loaded shape: (2, 512, 512, 851)
+  cropped shape: (2, 512, 512, 351)
+  segment 0: name=lumen, canonical=lumen, layer=0, label=1, voxels=2435260
+  segment 1: name=vessel_ob, canonical=vessel_ob, layer=1, label=1, voxels=27183686
+  segment 2: name=plaque, canonical=plaque, layer=0, label=2, voxels=11430539
+  merged shape: (512, 512, 351)
+  QC: lumen=2435260, vessel_ob=27183686, vessel_wall=24748426, plaque=11430539
+  QC overlaps: lumen_outside_vessel=0, plaque_outside_vessel=611770, plaque_overlap_lumen=0, plaque_overlap_vessel_wall=10818769
+  wrote: sample_gt_cropped/065/065_VL1_label_hwf.npy
+  wrote: sample_gt_cropped/065/065_VL1_label_hwf.nii.gz
+Processing 066_seg.nrrd (frames 200-550)
+  loaded shape: (2, 512, 512, 758)
+  cropped shape: (2, 512, 512, 351)
+  segment 0: name=lumen, canonical=lumen, layer=0, label=1, voxels=4098705
+  segment 1: name=vessel_ob, canonical=vessel_ob, layer=1, label=1, voxels=24714637
+  segment 2: name=plaque, canonical=plaque, layer=0, label=2, voxels=9781835
+  merged shape: (512, 512, 351)
+  QC: lumen=4098705, vessel_ob=24714637, vessel_wall=20615932, plaque=9781835
+  QC overlaps: lumen_outside_vessel=0, plaque_outside_vessel=737588, plaque_overlap_lumen=0, plaque_overlap_vessel_wall=9044247
+  wrote: sample_gt_cropped/066/066_VL1_label_hwf.npy
+  wrote: sample_gt_cropped/066/066_VL1_label_hwf.nii.gz
+Processing 067_seg.nrrd (frames 100-450)
+  loaded shape: (2, 512, 512, 826)
+  cropped shape: (2, 512, 512, 351)
+  segment 0: name=lumen, canonical=lumen, layer=0, label=1, voxels=2743213
+  segment 1: name=vessel_ob, canonical=vessel_ob, layer=1, label=1, voxels=26256783
+  segment 2: name=plaque, canonical=plaque, layer=0, label=2, voxels=15651163
+  merged shape: (512, 512, 351)
+  QC: lumen=2743213, vessel_ob=26256783, vessel_wall=23513570, plaque=15651163
+  QC overlaps: lumen_outside_vessel=0, plaque_outside_vessel=920201, plaque_overlap_lumen=0, plaque_overlap_vessel_wall=14730962
+  wrote: sample_gt_cropped/067/067_VL1_label_hwf.npy
+  wrote: sample_gt_cropped/067/067_VL1_label_hwf.nii.gz
+Processing 068_seg.nrrd (frames 200-600)
+  loaded shape: (2, 512, 512, 973)
+  cropped shape: (2, 512, 512, 401)
+  segment 0: name=lumen, canonical=lumen, layer=0, label=1, voxels=3395962
+  segment 1: name=vessel_ob, canonical=vessel_ob, layer=1, label=1, voxels=35313671
+  segment 2: name=plaque, canonical=plaque, layer=0, label=2, voxels=14836753
+  merged shape: (512, 512, 401)
+  QC: lumen=3395962, vessel_ob=35313671, vessel_wall=31918032, plaque=14836753
+  QC overlaps: lumen_outside_vessel=323, plaque_outside_vessel=1074271, plaque_overlap_lumen=0, plaque_overlap_vessel_wall=13762482
+  wrote: sample_gt_cropped/068/068_VL1_label_hwf.npy
+  wrote: sample_gt_cropped/068/068_VL1_label_hwf.nii.gz
+Processing 069_seg.nrrd (frames 250-600)
+  loaded shape: (2, 512, 512, 1143)
+  cropped shape: (2, 512, 512, 351)
+  segment 0: name=lumen, canonical=lumen, layer=0, label=1, voxels=5982898
+  segment 1: name=vessel_ob, canonical=vessel_ob, layer=1, label=1, voxels=22510254
+  segment 2: name=plaque, canonical=plaque, layer=0, label=2, voxels=10391304
+  merged shape: (512, 512, 351)
+  QC: lumen=5982898, vessel_ob=22510254, vessel_wall=16527528, plaque=10391304
+  QC overlaps: lumen_outside_vessel=172, plaque_outside_vessel=1354826, plaque_overlap_lumen=0, plaque_overlap_vessel_wall=9036478
+  wrote: sample_gt_cropped/069/069_VL1_label_hwf.npy
+  wrote: sample_gt_cropped/069/069_VL1_label_hwf.nii.gz
+Processing 070_seg.nrrd (frames 650-1000)
+  loaded shape: (2, 512, 512, 1497)
+  cropped shape: (2, 512, 512, 351)
+  segment 0: name=lumen, canonical=lumen, layer=0, label=1, voxels=4660810
+  segment 1: name=vessel_ob, canonical=vessel_ob, layer=1, label=1, voxels=29474701
+  segment 2: name=plaque, canonical=plaque, layer=0, label=2, voxels=15951922
+  merged shape: (512, 512, 351)
+  QC: lumen=4660810, vessel_ob=29474701, vessel_wall=24814673, plaque=15951922
+  QC overlaps: lumen_outside_vessel=782, plaque_outside_vessel=848011, plaque_overlap_lumen=0, plaque_overlap_vessel_wall=15103911
+  wrote: sample_gt_cropped/070/070_VL1_label_hwf.npy
+  wrote: sample_gt_cropped/070/070_VL1_label_hwf.nii.gz
+Processing 071_seg.nrrd (frames 300-600)
+  loaded shape: (3, 512, 512, 807)
+  cropped shape: (3, 512, 512, 301)
+  segment 0: name=lumen, canonical=lumen, layer=0, label=1, voxels=2188278
+  segment 1: name=vessel_ob, canonical=vessel_ob, layer=1, label=1, voxels=16966091
+  segment 2: name=plauqe, canonical=plaque, layer=2, label=1, voxels=10105513
+  note: mapped segment 'plauqe' to canonical name 'plaque'
+  merged shape: (512, 512, 301)
+  QC: lumen=2188278, vessel_ob=16966091, vessel_wall=14777813, plaque=10105513
+  QC overlaps: lumen_outside_vessel=0, plaque_outside_vessel=1113805, plaque_overlap_lumen=110151, plaque_overlap_vessel_wall=8881557
+  wrote: sample_gt_cropped/071/071_VL1_label_hwf.npy
+  wrote: sample_gt_cropped/071/071_VL1_label_hwf.nii.gz
+Processing 072_seg.nrrd (frames 250-500)
+  loaded shape: (2, 512, 512, 665)
+  cropped shape: (2, 512, 512, 251)
+  segment 0: name=lumen, canonical=lumen, layer=0, label=1, voxels=2585077
+  segment 1: name=vessel_ob, canonical=vessel_ob, layer=1, label=1, voxels=16812869
+  segment 2: name=palque, canonical=plaque, layer=0, label=2, voxels=9491736
+  note: mapped segment 'palque' to canonical name 'plaque'
+  merged shape: (512, 512, 251)
+  QC: lumen=2585077, vessel_ob=16812869, vessel_wall=14256465, plaque=9491736
+  QC overlaps: lumen_outside_vessel=28673, plaque_outside_vessel=1733429, plaque_overlap_lumen=0, plaque_overlap_vessel_wall=7758307
+  wrote: sample_gt_cropped/072/072_VL1_label_hwf.npy
+  wrote: sample_gt_cropped/072/072_VL1_label_hwf.nii.gz
+Processing 073_seg.nrrd (frames 500-850)
+  loaded shape: (2, 512, 512, 1001)
+  cropped shape: (2, 512, 512, 351)
+  segment 0: name=lumen, canonical=lumen, layer=0, label=1, voxels=4054840
+  segment 1: name=vessel_ob, canonical=vessel_ob, layer=1, label=1, voxels=10932217
+  segment 2: name=plaque, canonical=plaque, layer=0, label=2, voxels=7142842
+  merged shape: (512, 512, 351)
+  QC: lumen=4054840, vessel_ob=10932217, vessel_wall=6877377, plaque=7142842
+  QC overlaps: lumen_outside_vessel=0, plaque_outside_vessel=1635325, plaque_overlap_lumen=0, plaque_overlap_vessel_wall=5507517
+  wrote: sample_gt_cropped/073/073_VL1_label_hwf.npy
+  wrote: sample_gt_cropped/073/073_VL1_label_hwf.nii.gz
+Processing 074_seg.nrrd (frames 1-300)
+  loaded shape: (2, 512, 512, 750)
+  cropped shape: (2, 512, 512, 300)
+  segment 0: name=lumen, canonical=lumen, layer=0, label=1, voxels=2619131
+  segment 1: name=vessel_ob, canonical=vessel_ob, layer=1, label=1, voxels=28752363
+  segment 2: name=plaque, canonical=plaque, layer=0, label=2, voxels=13242408
+  merged shape: (512, 512, 300)
+  QC: lumen=2619131, vessel_ob=28752363, vessel_wall=26133252, plaque=13242408
+  QC overlaps: lumen_outside_vessel=20, plaque_outside_vessel=36391, plaque_overlap_lumen=0, plaque_overlap_vessel_wall=13206017
+  wrote: sample_gt_cropped/074/074_VL1_label_hwf.npy
+  wrote: sample_gt_cropped/074/074_VL1_label_hwf.nii.gz
+Processing 075_seg.nrrd (frames 1-350)
+  loaded shape: (2, 512, 512, 558)
+  cropped shape: (2, 512, 512, 350)
+  segment 0: name=lumen, canonical=lumen, layer=0, label=1, voxels=5705485
+  segment 1: name=vessel_ob, canonical=vessel_ob, layer=1, label=1, voxels=34189542
+  segment 2: name=plaque, canonical=plaque, layer=0, label=2, voxels=14488629
+  merged shape: (512, 512, 350)
+  QC: lumen=5705485, vessel_ob=34189542, vessel_wall=28484057, plaque=14488629
+  QC overlaps: lumen_outside_vessel=0, plaque_outside_vessel=270019, plaque_overlap_lumen=0, plaque_overlap_vessel_wall=14218610
+  wrote: sample_gt_cropped/075/075_VL1_label_hwf.npy
+  wrote: sample_gt_cropped/075/075_VL1_label_hwf.nii.gz
+Processing 076_seg.nrrd (frames 850-1200)
+  loaded shape: (2, 512, 512, 1333)
+  cropped shape: (2, 512, 512, 351)
+  segment 0: name=lumen, canonical=lumen, layer=0, label=1, voxels=4626188
+  segment 1: name=vessel_ob, canonical=vessel_ob, layer=1, label=1, voxels=20542725
+  segment 2: name=plaque, canonical=plaque, layer=0, label=2, voxels=14044987
+  merged shape: (512, 512, 351)
+  QC: lumen=4626188, vessel_ob=20542725, vessel_wall=15920808, plaque=14044987
+  QC overlaps: lumen_outside_vessel=4271, plaque_outside_vessel=2608096, plaque_overlap_lumen=0, plaque_overlap_vessel_wall=11436891
+  wrote: sample_gt_cropped/076/076_VL1_label_hwf.npy
+  wrote: sample_gt_cropped/076/076_VL1_label_hwf.nii.gz
+Processing 077_seg.nrrd (frames 500-1000)
+  loaded shape: (2, 512, 512, 1164)
+  cropped shape: (2, 512, 512, 501)
+  segment 0: name=lumen, canonical=lumen, layer=0, label=1, voxels=3965615
+  segment 1: name=vessel_ob, canonical=vessel_ob, layer=1, label=1, voxels=43787799
+  segment 2: name=plaque, canonical=plaque, layer=0, label=2, voxels=19551933
+  merged shape: (512, 512, 501)
+  QC: lumen=3965615, vessel_ob=43787799, vessel_wall=39822289, plaque=19551933
+  QC overlaps: lumen_outside_vessel=105, plaque_outside_vessel=712931, plaque_overlap_lumen=0, plaque_overlap_vessel_wall=18839002
+  wrote: sample_gt_cropped/077/077_VL1_label_hwf.npy
+  wrote: sample_gt_cropped/077/077_VL1_label_hwf.nii.gz
+Processing 078_seg.nrrd (frames 220-550)
+  loaded shape: (2, 512, 512, 656)
+  cropped shape: (2, 512, 512, 331)
+  segment 0: name=lumen, canonical=lumen, layer=0, label=1, voxels=6038891
+  segment 1: name=vessel_ob, canonical=vessel_ob, layer=1, label=1, voxels=30599461
+  segment 2: name=plaque, canonical=plaque, layer=0, label=2, voxels=12860233
+  merged shape: (512, 512, 331)
+  QC: lumen=6038891, vessel_ob=30599461, vessel_wall=24561816, plaque=12860233
+  QC overlaps: lumen_outside_vessel=1246, plaque_outside_vessel=146578, plaque_overlap_lumen=0, plaque_overlap_vessel_wall=12713655
+  wrote: sample_gt_cropped/078/078_VL1_label_hwf.npy
+  wrote: sample_gt_cropped/078/078_VL1_label_hwf.nii.gz
+Processing 079_seg.nrrd (frames 1-450)
+  loaded shape: (2, 512, 512, 547)
+  cropped shape: (2, 512, 512, 450)
+  segment 0: name=lumen, canonical=lumen, layer=0, label=1, voxels=5357171
+  segment 1: name=vessel_ob, canonical=vessel_ob, layer=1, label=1, voxels=32347525
+  segment 2: name=plaque, canonical=plaque, layer=0, label=2, voxels=18522240
+  merged shape: (512, 512, 450)
+  QC: lumen=5357171, vessel_ob=32347525, vessel_wall=26991505, plaque=18522240
+  QC overlaps: lumen_outside_vessel=1151, plaque_outside_vessel=999407, plaque_overlap_lumen=0, plaque_overlap_vessel_wall=17522833
+  wrote: sample_gt_cropped/079/079_VL1_label_hwf.npy
+  wrote: sample_gt_cropped/079/079_VL1_label_hwf.nii.gz
+Processing 080_seg.nrrd (frames 400-900)
+  loaded shape: (2, 512, 512, 1287)
+  cropped shape: (2, 512, 512, 501)
+  segment 0: name=lumen, canonical=lumen, layer=0, label=1, voxels=4427169
+  segment 1: name=vessel_ob, canonical=vessel_ob, layer=1, label=1, voxels=40760564
+  segment 2: name=plaque, canonical=plaque, layer=0, label=2, voxels=19747394
+  merged shape: (512, 512, 501)
+  QC: lumen=4427169, vessel_ob=40760564, vessel_wall=36333395, plaque=19747394
+  QC overlaps: lumen_outside_vessel=0, plaque_outside_vessel=133109, plaque_overlap_lumen=0, plaque_overlap_vessel_wall=19614285
+  wrote: sample_gt_cropped/080/080_VL1_label_hwf.npy
+  wrote: sample_gt_cropped/080/080_VL1_label_hwf.nii.gz
+Processing 081_seg.nrrd (frames 250-650)
+  loaded shape: (2, 512, 512, 1606)
+  cropped shape: (2, 512, 512, 401)
+  segment 0: name=lumen, canonical=lumen, layer=0, label=1, voxels=2829773
+  segment 1: name=vessel_ob, canonical=vessel_ob, layer=1, label=1, voxels=15551627
+  segment 2: name=plaque, canonical=plaque, layer=0, label=2, voxels=8952723
+  merged shape: (512, 512, 401)
+  QC: lumen=2829773, vessel_ob=15551627, vessel_wall=12736653, plaque=8952723
+  QC overlaps: lumen_outside_vessel=14799, plaque_outside_vessel=3323601, plaque_overlap_lumen=0, plaque_overlap_vessel_wall=5629122
+  wrote: sample_gt_cropped/081/081_VL1_label_hwf.npy
+  wrote: sample_gt_cropped/081/081_VL1_label_hwf.nii.gz
+Processing 082_seg.nrrd (frames 1-125)
+  loaded shape: (2, 512, 512, 218)
+  cropped shape: (2, 512, 512, 125)
+  segment 0: name=lumen, canonical=lumen, layer=0, label=1, voxels=2057007
+  segment 1: name=vessel_ob, canonical=vessel_ob, layer=1, label=1, voxels=6594591
+  segment 2: name=plaque, canonical=plaque, layer=0, label=2, voxels=2671901
+  merged shape: (512, 512, 125)
+  QC: lumen=2057007, vessel_ob=6594591, vessel_wall=4545120, plaque=2671901
+  QC overlaps: lumen_outside_vessel=7536, plaque_outside_vessel=1813974, plaque_overlap_lumen=0, plaque_overlap_vessel_wall=857927
+  wrote: sample_gt_cropped/082/082_VL1_label_hwf.npy
+  wrote: sample_gt_cropped/082/082_VL1_label_hwf.nii.gz
+Processing 083_seg.nrrd (frames 1-370)
+  loaded shape: (2, 512, 512, 533)
+  cropped shape: (2, 512, 512, 370)
+  segment 0: name=lumen, canonical=lumen, layer=0, label=1, voxels=3360990
+  segment 1: name=vessel_ob, canonical=vessel_ob, layer=1, label=1, voxels=32138893
+  segment 2: name=plaque, canonical=plaque, layer=0, label=2, voxels=18474376
+  merged shape: (512, 512, 370)
+  QC: lumen=3360990, vessel_ob=32138893, vessel_wall=28777954, plaque=18474376
+  QC overlaps: lumen_outside_vessel=51, plaque_outside_vessel=749187, plaque_overlap_lumen=0, plaque_overlap_vessel_wall=17725189
+  wrote: sample_gt_cropped/083/083_VL1_label_hwf.npy
+  wrote: sample_gt_cropped/083/083_VL1_label_hwf.nii.gz
+Processing 084_seg.nrrd (frames 500-900)
+  loaded shape: (2, 512, 512, 1566)
+  cropped shape: (2, 512, 512, 401)
+  segment 0: name=lumen, canonical=lumen, layer=0, label=1, voxels=6949938
+  segment 1: name=Segment_1, canonical=vessel_ob, layer=1, label=1, voxels=33554272
+  segment 2: name=plaque, canonical=plaque, layer=0, label=2, voxels=13732582
+  note: inferred unknown segment 'Segment_1' as 'vessel_ob' because it was the only missing semantic segment
+  merged shape: (512, 512, 401)
+  QC: lumen=6949938, vessel_ob=33554272, vessel_wall=26604339, plaque=13732582
+  QC overlaps: lumen_outside_vessel=5, plaque_outside_vessel=276699, plaque_overlap_lumen=0, plaque_overlap_vessel_wall=13455883
+  wrote: sample_gt_cropped/084/084_VL1_label_hwf.npy
+  wrote: sample_gt_cropped/084/084_VL1_label_hwf.nii.gz
+Processing 085_seg.nrrd (frames 500-900)
+  loaded shape: (2, 512, 512, 1034)
+  cropped shape: (2, 512, 512, 401)
+  segment 0: name=lumen, canonical=lumen, layer=0, label=1, voxels=4073812
+  segment 1: name=vessel_ob, canonical=vessel_ob, layer=1, label=1, voxels=20636045
+  segment 2: name=plaque, canonical=plaque, layer=0, label=2, voxels=11339460
+  merged shape: (512, 512, 401)
+  QC: lumen=4073812, vessel_ob=20636045, vessel_wall=16591563, plaque=11339460
+  QC overlaps: lumen_outside_vessel=29330, plaque_outside_vessel=3731362, plaque_overlap_lumen=0, plaque_overlap_vessel_wall=7608098
+  wrote: sample_gt_cropped/085/085_VL1_label_hwf.npy
+  wrote: sample_gt_cropped/085/085_VL1_label_hwf.nii.gz
+Processing 086_seg.nrrd (frames 300-600)
+  loaded shape: (2, 512, 512, 3001)
+  cropped shape: (2, 512, 512, 301)
+  segment 0: name=lumen, canonical=lumen, layer=0, label=1, voxels=2624652
+  segment 1: name=vessel_ob, canonical=vessel_ob, layer=1, label=1, voxels=22070119
+  segment 2: name=plaque, canonical=plaque, layer=0, label=2, voxels=9623149
+  merged shape: (512, 512, 301)
+  QC: lumen=2624652, vessel_ob=22070119, vessel_wall=19448543, plaque=9623149
+  QC overlaps: lumen_outside_vessel=3076, plaque_outside_vessel=1040426, plaque_overlap_lumen=0, plaque_overlap_vessel_wall=8582723
+  wrote: sample_gt_cropped/086/086_VL1_label_hwf.npy
+  wrote: sample_gt_cropped/086/086_VL1_label_hwf.nii.gz
+Processing 087_seg.nrrd (frames 400-750)
+  loaded shape: (2, 512, 512, 1148)
+  cropped shape: (2, 512, 512, 351)
+  segment 0: name=lumen, canonical=lumen, layer=0, label=1, voxels=4538508
+  segment 1: name=vessel_ob, canonical=vessel_ob, layer=1, label=1, voxels=29428061
+  segment 2: name=plauqe, canonical=plaque, layer=0, label=2, voxels=14935181
+  note: mapped segment 'plauqe' to canonical name 'plaque'
+  merged shape: (512, 512, 351)
+  QC: lumen=4538508, vessel_ob=29428061, vessel_wall=24890005, plaque=14935181
+  QC overlaps: lumen_outside_vessel=452, plaque_outside_vessel=1152311, plaque_overlap_lumen=0, plaque_overlap_vessel_wall=13782870
+  wrote: sample_gt_cropped/087/087_VL1_label_hwf.npy
+  wrote: sample_gt_cropped/087/087_VL1_label_hwf.nii.gz
+Processing 088_seg.nrrd (frames 100-490)
+  loaded shape: (2, 512, 512, 751)
+  cropped shape: (2, 512, 512, 391)
+  segment 0: name=lumen, canonical=lumen, layer=0, label=1, voxels=2541770
+  segment 1: name=vessel_ob, canonical=vessel_ob, layer=1, label=1, voxels=32570304
+  segment 2: name=plauqe, canonical=plaque, layer=0, label=2, voxels=13338336
+  note: mapped segment 'plauqe' to canonical name 'plaque'
+  merged shape: (512, 512, 391)
+  QC: lumen=2541770, vessel_ob=32570304, vessel_wall=30028534, plaque=13338336
+  QC overlaps: lumen_outside_vessel=0, plaque_outside_vessel=24, plaque_overlap_lumen=0, plaque_overlap_vessel_wall=13338312
+  wrote: sample_gt_cropped/088/088_VL1_label_hwf.npy
+  wrote: sample_gt_cropped/088/088_VL1_label_hwf.nii.gz
+Processing 089_seg.nrrd (frames 400-800)
+  loaded shape: (2, 512, 512, 1229)
+  cropped shape: (2, 512, 512, 401)
+  segment 0: name=lumen, canonical=lumen, layer=0, label=1, voxels=3225545
+  segment 1: name=vessel_ob, canonical=vessel_ob, layer=1, label=1, voxels=11901653
+  segment 2: name=plaque, canonical=plaque, layer=0, label=2, voxels=12725406
+  merged shape: (512, 512, 401)
+  QC: lumen=3225545, vessel_ob=11901653, vessel_wall=8687002, plaque=12725406
+  QC overlaps: lumen_outside_vessel=10894, plaque_outside_vessel=7412369, plaque_overlap_lumen=0, plaque_overlap_vessel_wall=5313037
+  wrote: sample_gt_cropped/089/089_VL1_label_hwf.npy
+  wrote: sample_gt_cropped/089/089_VL1_label_hwf.nii.gz
+Processing 090_seg.nrrd (frames 1-200)
+  loaded shape: (2, 512, 512, 276)
+  cropped shape: (2, 512, 512, 200)
+  segment 0: name=lumen, canonical=lumen, layer=0, label=1, voxels=2675250
+  segment 1: name=vessel_ob, canonical=vessel_ob, layer=1, label=1, voxels=21462075
+  segment 2: name=plaque, canonical=plaque, layer=0, label=2, voxels=10496820
+  merged shape: (512, 512, 200)
+  QC: lumen=2675250, vessel_ob=21462075, vessel_wall=18786825, plaque=10496820
+  QC overlaps: lumen_outside_vessel=0, plaque_outside_vessel=99426, plaque_overlap_lumen=0, plaque_overlap_vessel_wall=10397394
+  wrote: sample_gt_cropped/090/090_VL1_label_hwf.npy
+  wrote: sample_gt_cropped/090/090_VL1_label_hwf.nii.gz
+Processing 091_seg.nrrd (frames 300-700)
+  loaded shape: (2, 512, 512, 1070)
+  cropped shape: (2, 512, 512, 401)
+  segment 0: name=lumen, canonical=lumen, layer=0, label=1, voxels=4851270
+  segment 1: name=vessel_ob, canonical=vessel_ob, layer=1, label=1, voxels=33893138
+  segment 2: name=plaque, canonical=plaque, layer=0, label=2, voxels=13525856
+  merged shape: (512, 512, 401)
+  QC: lumen=4851270, vessel_ob=33893138, vessel_wall=29048985, plaque=13525856
+  QC overlaps: lumen_outside_vessel=7117, plaque_outside_vessel=1229715, plaque_overlap_lumen=0, plaque_overlap_vessel_wall=12296141
+  wrote: sample_gt_cropped/091/091_VL1_label_hwf.npy
+  wrote: sample_gt_cropped/091/091_VL1_label_hwf.nii.gz
+Processing 092_seg.nrrd (frames 100-450)
+  loaded shape: (2, 512, 512, 563)
+  cropped shape: (2, 512, 512, 351)
+  segment 0: name=lumen, canonical=lumen, layer=0, label=1, voxels=5957284
+  segment 1: name=vesssel_ob, canonical=vessel_ob, layer=1, label=1, voxels=26056900
+  segment 2: name=plaque, canonical=plaque, layer=0, label=2, voxels=11802415
+  note: mapped segment 'vesssel_ob' to canonical name 'vessel_ob'
+  merged shape: (512, 512, 351)
+  QC: lumen=5957284, vessel_ob=26056900, vessel_wall=20126890, plaque=11802415
+  QC overlaps: lumen_outside_vessel=27274, plaque_outside_vessel=2450830, plaque_overlap_lumen=0, plaque_overlap_vessel_wall=9351585
+  wrote: sample_gt_cropped/092/092_VL1_label_hwf.npy
+  wrote: sample_gt_cropped/092/092_VL1_label_hwf.nii.gz
+Processing 093_seg.nrrd (frames 200-500)
+  loaded shape: (2, 512, 512, 628)
+  cropped shape: (2, 512, 512, 301)
+  segment 0: name=lumen, canonical=lumen, layer=0, label=1, voxels=3932745
+  segment 1: name=vessel_ob, canonical=vessel_ob, layer=1, label=1, voxels=26941987
+  segment 2: name=plaque, canonical=plaque, layer=0, label=2, voxels=11609017
+  merged shape: (512, 512, 301)
+  QC: lumen=3932745, vessel_ob=26941987, vessel_wall=23009633, plaque=11609017
+  QC overlaps: lumen_outside_vessel=391, plaque_outside_vessel=276354, plaque_overlap_lumen=0, plaque_overlap_vessel_wall=11332663
+  wrote: sample_gt_cropped/093/093_VL1_label_hwf.npy
+  wrote: sample_gt_cropped/093/093_VL1_label_hwf.nii.gz
+Processing 094_seg.nrrd (frames 1-350)
+  loaded shape: (2, 512, 512, 495)
+  cropped shape: (2, 512, 512, 350)
+  segment 0: name=lumen, canonical=lumen, layer=0, label=1, voxels=3803386
+  segment 1: name=vessel_ob, canonical=vessel_ob, layer=1, label=1, voxels=21760460
+  segment 2: name=plauqe, canonical=plaque, layer=0, label=2, voxels=14438307
+  note: mapped segment 'plauqe' to canonical name 'plaque'
+  merged shape: (512, 512, 350)
+  QC: lumen=3803386, vessel_ob=21760460, vessel_wall=17957142, plaque=14438307
+  QC overlaps: lumen_outside_vessel=68, plaque_outside_vessel=1459530, plaque_overlap_lumen=0, plaque_overlap_vessel_wall=12978777
+  wrote: sample_gt_cropped/094/094_VL1_label_hwf.npy
+  wrote: sample_gt_cropped/094/094_VL1_label_hwf.nii.gz
+Processing 095_seg.nrrd (frames 310-610)
+  loaded shape: (2, 512, 512, 784)
+  cropped shape: (2, 512, 512, 301)
+  segment 0: name=lumen, canonical=lumen, layer=0, label=1, voxels=4837157
+  segment 1: name=vesel_ob, canonical=vessel_ob, layer=1, label=1, voxels=22947280
+  segment 2: name=plaque, canonical=plaque, layer=0, label=2, voxels=10553864
+  note: mapped segment 'vesel_ob' to canonical name 'vessel_ob'
+  merged shape: (512, 512, 301)
+  QC: lumen=4837157, vessel_ob=22947280, vessel_wall=18131653, plaque=10553864
+  QC overlaps: lumen_outside_vessel=21530, plaque_outside_vessel=1566659, plaque_overlap_lumen=0, plaque_overlap_vessel_wall=8987205
+  wrote: sample_gt_cropped/095/095_VL1_label_hwf.npy
+  wrote: sample_gt_cropped/095/095_VL1_label_hwf.nii.gz
+Processing 096_seg.nrrd (frames 100-400)
+  loaded shape: (2, 512, 512, 464)
+  cropped shape: (2, 512, 512, 301)
+  segment 0: name=lumen, canonical=lumen, layer=0, label=1, voxels=2850525
+  segment 1: name=vessel_ob, canonical=vessel_ob, layer=1, label=1, voxels=25969082
+  segment 2: name=plaque, canonical=plaque, layer=0, label=2, voxels=10610459
+  merged shape: (512, 512, 301)
+  QC: lumen=2850525, vessel_ob=25969082, vessel_wall=23120394, plaque=10610459
+  QC overlaps: lumen_outside_vessel=1837, plaque_outside_vessel=2061532, plaque_overlap_lumen=0, plaque_overlap_vessel_wall=8548927
+  wrote: sample_gt_cropped/096/096_VL1_label_hwf.npy
+  wrote: sample_gt_cropped/096/096_VL1_label_hwf.nii.gz
+Processing 097_seg.nrrd (frames 1-350)
+  loaded shape: (2, 512, 512, 498)
+  cropped shape: (2, 512, 512, 350)
+  segment 0: name=lumen, canonical=lumen, layer=0, label=1, voxels=4064694
+  segment 1: name=vessel_ob, canonical=vessel_ob, layer=1, label=1, voxels=15992102
+  segment 2: name=plaque, canonical=plaque, layer=0, label=2, voxels=13747027
+  merged shape: (512, 512, 350)
+  QC: lumen=4064694, vessel_ob=15992102, vessel_wall=11935447, plaque=13747027
+  QC overlaps: lumen_outside_vessel=8039, plaque_outside_vessel=5329754, plaque_overlap_lumen=0, plaque_overlap_vessel_wall=8417273
+  wrote: sample_gt_cropped/097/097_VL1_label_hwf.npy
+  wrote: sample_gt_cropped/097/097_VL1_label_hwf.nii.gz
+Processing 098_seg.nrrd (frames 550-1000)
+  loaded shape: (2, 512, 512, 1325)
+  cropped shape: (2, 512, 512, 451)
+  segment 0: name=lumen, canonical=lumen, layer=0, label=1, voxels=3811600
+  segment 1: name=vessel_ob, canonical=vessel_ob, layer=1, label=1, voxels=37485220
+  segment 2: name=plaque, canonical=plaque, layer=0, label=2, voxels=14127242
+  merged shape: (512, 512, 451)
+  QC: lumen=3811600, vessel_ob=37485220, vessel_wall=33673728, plaque=14127242
+  QC overlaps: lumen_outside_vessel=108, plaque_outside_vessel=1229181, plaque_overlap_lumen=0, plaque_overlap_vessel_wall=12898061
+  wrote: sample_gt_cropped/098/098_VL1_label_hwf.npy
+  wrote: sample_gt_cropped/098/098_VL1_label_hwf.nii.gz
+Processing 099_seg.nrrd (frames 300-650)
+  loaded shape: (2, 512, 512, 780)
+  cropped shape: (2, 512, 512, 351)
+  segment 0: name=lumen, canonical=lumen, layer=0, label=1, voxels=4501674
+  segment 1: name=vessel_ob, canonical=vessel_ob, layer=1, label=1, voxels=28881880
+  segment 2: name=plaque, canonical=plaque, layer=0, label=2, voxels=11932869
+  merged shape: (512, 512, 351)
+  QC: lumen=4501674, vessel_ob=28881880, vessel_wall=24416891, plaque=11932869
+  QC overlaps: lumen_outside_vessel=36685, plaque_outside_vessel=2535034, plaque_overlap_lumen=0, plaque_overlap_vessel_wall=9397835
+  wrote: sample_gt_cropped/099/099_VL1_label_hwf.npy
+  wrote: sample_gt_cropped/099/099_VL1_label_hwf.nii.gz
+Processing 100_seg.nrrd (frames 450-800)
+  loaded shape: (2, 512, 512, 1690)
+  cropped shape: (2, 512, 512, 351)
+  segment 0: name=lumen, canonical=lumen, layer=0, label=1, voxels=2504469
+  segment 1: name=vessel_ob, canonical=vessel_ob, layer=1, label=1, voxels=23139744
+  segment 2: name=plaque, canonical=plaque, layer=0, label=2, voxels=10157119
+  merged shape: (512, 512, 351)
+  QC: lumen=2504469, vessel_ob=23139744, vessel_wall=20635602, plaque=10157119
+  QC overlaps: lumen_outside_vessel=327, plaque_outside_vessel=308117, plaque_overlap_lumen=0, plaque_overlap_vessel_wall=9849002
+  wrote: sample_gt_cropped/100/100_VL1_label_hwf.npy
+  wrote: sample_gt_cropped/100/100_VL1_label_hwf.nii.gz
+
+Conversion complete
+Successful: 100
+Failed: 1
