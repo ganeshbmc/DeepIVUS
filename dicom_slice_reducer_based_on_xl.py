@@ -1,3 +1,19 @@
+"""Legacy exploratory DICOM cropper.
+
+This script was an early one-off utility and is kept for historical reference.
+For current raw DICOM cropping, use `convert_raw_cropped.py` instead.
+
+Why `convert_raw_cropped.py` replaced this script:
+- accepts CLI arguments for input/output/excel paths
+- supports case-range filtering (`--case-start/--case-end`)
+- writes outputs matching the repo naming convention (`<case>_<VL>_cropped.dcm`)
+- supports `VL1`/`VL2`/`VL3` crop columns from Excel
+- writes structured CSV logs and supports `--dry-run`
+
+Do not use this legacy script for new dataset preparation unless you are
+intentionally reproducing the old exploratory behavior.
+"""
+
 import os
 from pathlib import Path
 

@@ -63,10 +63,24 @@ def parse_args():
         action="store_true",
         help="Evaluate vessel wall only.",
     )
+    parser.add_argument(
+        "--case-start",
+        type=int,
+        default=None,
+        help="Only evaluate cases with numeric IDs greater than or equal to this value.",
+    )
+    parser.add_argument(
+        "--case-end",
+        type=int,
+        default=None,
+        help="Only evaluate cases with numeric IDs less than or equal to this value.",
+    )
     args = parser.parse_args()
 
     if args.lumen_only and args.vessel_only:
         parser.error("--lumen-only and --vessel-only cannot be used together")
+    if args.case_start is not None and args.case_end is not None and args.case_start > args.case_end:
+        parser.error("--case-start cannot be greater than --case-end")
 
     return args
 
@@ -134,13 +148,28 @@ def stem_from_prediction_path(pred_path: Path) -> str:
     return stem.replace("_cropped", "")
 
 
-def find_matching_files(pred_dir: Path, gt_dir: Path):
+def case_id_in_range(case_id: str, case_start: int | None, case_end: int | None) -> bool:
+    try:
+        case_num = int(case_id)
+    except ValueError:
+        return False
+
+    if case_start is not None and case_num < case_start:
+        return False
+    if case_end is not None and case_num > case_end:
+        return False
+    return True
+
+
+def find_matching_files(pred_dir: Path, gt_dir: Path, case_start: int | None, case_end: int | None):
     pred_files = sorted(pred_dir.rglob("*_pred_like_gt_hwf.npy"))
 
     matches = []
     missing_gt = []
     for pred_path in pred_files:
         case_id = pred_path.parent.name
+        if not case_id_in_range(case_id, case_start, case_end):
+            continue
         stem = stem_from_prediction_path(pred_path)
         gt_filename = f"{stem}_label_hwf.npy"
         gt_path = gt_dir / case_id / gt_filename
@@ -274,7 +303,12 @@ def main():
     label_mapping = LABEL_MAPPINGS[args.mapping]
 
     print(f"Scanning {args.pred_dir} and {args.gt_dir}...")
-    matches, missing_gt = find_matching_files(args.pred_dir, args.gt_dir)
+    matches, missing_gt = find_matching_files(
+        args.pred_dir,
+        args.gt_dir,
+        args.case_start,
+        args.case_end,
+    )
     print(f"Found {len(matches)} matching prediction-GT pairs")
     print(f"Using label mapping: {args.mapping} -> {label_mapping}")
     print(f"Evaluating classes: {', '.join(CLASS_CONFIG[name]['display'] for name in selected_classes)}")

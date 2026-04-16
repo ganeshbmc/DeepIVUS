@@ -26,6 +26,18 @@ def parse_args():
         action="store_true",
         help="Also save predictions as .nii.gz (requires nibabel).",
     )
+    parser.add_argument(
+        "--case-start",
+        type=int,
+        default=None,
+        help="Only process cases with numeric IDs greater than or equal to this value.",
+    )
+    parser.add_argument(
+        "--case-end",
+        type=int,
+        default=None,
+        help="Only process cases with numeric IDs less than or equal to this value.",
+    )
     return parser.parse_args()
 
 
@@ -34,6 +46,19 @@ def collect_dicom_files(data_dir: Path):
     if not dicom_files:
         dicom_files = sorted([p for p in data_dir.rglob("*.dcm") if p.is_file()])
     return dicom_files
+
+
+def case_id_in_range(case_id: str, case_start: int | None, case_end: int | None) -> bool:
+    try:
+        case_num = int(case_id)
+    except ValueError:
+        return False
+
+    if case_start is not None and case_num < case_start:
+        return False
+    if case_end is not None and case_num > case_end:
+        return False
+    return True
 
 
 def prepare_input_array(img: np.ndarray) -> np.ndarray:
@@ -66,6 +91,9 @@ def main():
     data_dir = args.data_dir
     output_dir = args.output_dir
 
+    if args.case_start is not None and args.case_end is not None and args.case_start > args.case_end:
+        raise ValueError("--case-start cannot be greater than --case-end")
+
     from IVUS_prediction import predict
 
     if not data_dir.exists():
@@ -74,6 +102,16 @@ def main():
     dicom_files = collect_dicom_files(data_dir)
     if not dicom_files:
         raise RuntimeError(f"No DICOM files found under: {data_dir}")
+
+    dicom_files = [
+        path
+        for path in dicom_files
+        if case_id_in_range(path.parent.name, args.case_start, args.case_end)
+    ]
+    if not dicom_files:
+        raise RuntimeError(
+            "No DICOM files found for the requested case range under: " f"{data_dir}"
+        )
 
     output_dir.mkdir(parents=True, exist_ok=True)
 

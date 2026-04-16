@@ -56,6 +56,18 @@ def parse_args():
         action="store_true",
         help="Analyze NRRD files structure and write report to gt_conversion_log.md.",
     )
+    parser.add_argument(
+        "--case-start",
+        type=int,
+        default=None,
+        help="Only process cases with numeric IDs greater than or equal to this value.",
+    )
+    parser.add_argument(
+        "--case-end",
+        type=int,
+        default=None,
+        help="Only process cases with numeric IDs less than or equal to this value.",
+    )
     return parser.parse_args()
 
 
@@ -362,6 +374,19 @@ def determine_vl_name(seg_path: Path) -> str:
     return "VL1"
 
 
+def case_id_in_range(case_id: str, case_start: int | None, case_end: int | None) -> bool:
+    try:
+        case_num = int(case_id)
+    except ValueError:
+        return False
+
+    if case_start is not None and case_num < case_start:
+        return False
+    if case_end is not None and case_num > case_end:
+        return False
+    return True
+
+
 def analyze_all_files(src_dir: Path, output_log: Path):
     seg_files = sorted(src_dir.rglob("*_seg.nrrd"))
 
@@ -400,6 +425,9 @@ def analyze_all_files(src_dir: Path, output_log: Path):
 
 
 def convert_all(args):
+    if args.case_start is not None and args.case_end is not None and args.case_start > args.case_end:
+        raise ValueError("--case-start cannot be greater than --case-end")
+
     print(f"Loading crop parameters from {args.excel_path}...")
     crop_params = load_excel_crop_params(args.excel_path)
     print(f"Found crop parameters for {len(crop_params)} cases")
@@ -407,6 +435,16 @@ def convert_all(args):
     seg_files = sorted(args.src_dir.rglob("*_seg.nrrd"))
     if not seg_files:
         raise RuntimeError(f"No segmentation files found in {args.src_dir}")
+
+    seg_files = [
+        path
+        for path in seg_files
+        if case_id_in_range(path.parent.name, args.case_start, args.case_end)
+    ]
+    if not seg_files:
+        raise RuntimeError(
+            "No segmentation files found for the requested case range in " f"{args.src_dir}"
+        )
 
     print(f"Found {len(seg_files)} segmentation file(s)")
 
