@@ -1,0 +1,2 @@
+case,vl_name,status,reason,input_path,output_path,total_frames_original,start_frame_excel,end_frame_excel,start_index_python,end_index_python,saved_frames
+044,VL1,FAILED,"Out of bounds. start=249, end=649, total_frames=401",sample_data/044/044_VL1_cropped.dcm,sample_data_cropped_test/044/044_VL1_cropped.dcm,,250,650,249,649,

@@ -1,0 +1,101 @@
+case,vl_name,status,reason,input_path,output_path,total_frames_original,start_frame_excel,end_frame_excel,start_index_python,end_index_python,saved_frames
+101,VL1,SUCCESS,,/mnt/e/dishas_thesis_samplevolumes_and_labels/DICOM_AI_IVUS_200_14042026/101/dicom-00001.dcm,sample_data/101/101_VL1_cropped.dcm,922,250,600,249,599,351
+102,VL1,SUCCESS,,/mnt/e/dishas_thesis_samplevolumes_and_labels/DICOM_AI_IVUS_200_14042026/102/dicom-00001.dcm,sample_data/102/102_VL1_cropped.dcm,1047,500,850,499,849,351
+103,VL1,SUCCESS,,/mnt/e/dishas_thesis_samplevolumes_and_labels/DICOM_AI_IVUS_200_14042026/103/dicom-00001.dcm,sample_data/103/103_VL1_cropped.dcm,1087,350,850,349,849,501
+104,VL1,SUCCESS,,/mnt/e/dishas_thesis_samplevolumes_and_labels/DICOM_AI_IVUS_200_14042026/104/dicom-series-001-VL 1.dcm,sample_data/104/104_VL1_cropped.dcm,1347,550,1000,549,999,451
+105,VL1,SUCCESS,,/mnt/e/dishas_thesis_samplevolumes_and_labels/DICOM_AI_IVUS_200_14042026/105/dicom-series-001-VL 1.dcm,sample_data/105/105_VL1_cropped.dcm,1539,650,1000,649,999,351
+106,VL1,SUCCESS,,/mnt/e/dishas_thesis_samplevolumes_and_labels/DICOM_AI_IVUS_200_14042026/106/dicom-series-001-VL 1.dcm,sample_data/106/106_VL1_cropped.dcm,625,150,450,149,449,301
+107,VL1,SUCCESS,,/mnt/e/dishas_thesis_samplevolumes_and_labels/DICOM_AI_IVUS_200_14042026/107/dicom-00001.dcm,sample_data/107/107_VL1_cropped.dcm,985,250,700,249,699,451
+108,VL1,SUCCESS,,/mnt/e/dishas_thesis_samplevolumes_and_labels/DICOM_AI_IVUS_200_14042026/108/dicom-00001.dcm,sample_data/108/108_VL1_cropped.dcm,851,250,700,249,699,451
+109,VL1,FAILED,"Out of bounds. start=579, end=999, total_frames=839",/mnt/e/dishas_thesis_samplevolumes_and_labels/DICOM_AI_IVUS_200_14042026/109/dicom-00001.dcm,sample_data/109/109_VL1_cropped.dcm,,580,1000,579,999,
+110,VL1,SUCCESS,,/mnt/e/dishas_thesis_samplevolumes_and_labels/DICOM_AI_IVUS_200_14042026/110/dicom-00001.dcm,sample_data/110/110_VL1_cropped.dcm,996,100,700,99,699,601
+111,VL1,SUCCESS,,/mnt/e/dishas_thesis_samplevolumes_and_labels/DICOM_AI_IVUS_200_14042026/111/dicom-00001.dcm,sample_data/111/111_VL1_cropped.dcm,1413,250,600,249,599,351
+112,VL1,SUCCESS,,/mnt/e/dishas_thesis_samplevolumes_and_labels/DICOM_AI_IVUS_200_14042026/112/dicom-00001.dcm,sample_data/112/112_VL1_cropped.dcm,1612,300,950,299,949,651
+113,VL1,SUCCESS,,/mnt/e/dishas_thesis_samplevolumes_and_labels/DICOM_AI_IVUS_200_14042026/113/dicom-00001.dcm,sample_data/113/113_VL1_cropped.dcm,1061,400,900,399,899,501
+114,VL1,SUCCESS,,/mnt/e/dishas_thesis_samplevolumes_and_labels/DICOM_AI_IVUS_200_14042026/114/dicom-00001.dcm,sample_data/114/114_VL1_cropped.dcm,1848,600,1000,599,999,401
+115,VL1,SUCCESS,,/mnt/e/dishas_thesis_samplevolumes_and_labels/DICOM_AI_IVUS_200_14042026/115/dicom-00001.dcm,sample_data/115/115_VL1_cropped.dcm,413,1,400,0,399,400
+116,VL1,SUCCESS,,/mnt/e/dishas_thesis_samplevolumes_and_labels/DICOM_AI_IVUS_200_14042026/116/dicom-00001.dcm,sample_data/116/116_VL1_cropped.dcm,788,250,600,249,599,351
+117,VL1,SUCCESS,,/mnt/e/dishas_thesis_samplevolumes_and_labels/DICOM_AI_IVUS_200_14042026/117/dicom-00001.dcm,sample_data/117/117_VL1_cropped.dcm,2639,350,800,349,799,451
+118,VL1,SUCCESS,,/mnt/e/dishas_thesis_samplevolumes_and_labels/DICOM_AI_IVUS_200_14042026/118/dicom-00001.dcm,sample_data/118/118_VL1_cropped.dcm,1045,100,500,99,499,401
+119,VL1,SUCCESS,,/mnt/e/dishas_thesis_samplevolumes_and_labels/DICOM_AI_IVUS_200_14042026/119/dicom-00001.dcm,sample_data/119/119_VL1_cropped.dcm,924,200,650,199,649,451
+120,VL1,SUCCESS,,/mnt/e/dishas_thesis_samplevolumes_and_labels/DICOM_AI_IVUS_200_14042026/120/dicom-00001.dcm,sample_data/120/120_VL1_cropped.dcm,611,150,500,149,499,351
+121,VL1,SUCCESS,,/mnt/e/dishas_thesis_samplevolumes_and_labels/DICOM_AI_IVUS_200_14042026/121/dicom-00001.dcm,sample_data/121/121_VL1_cropped.dcm,662,30,450,29,449,421
+122,VL1,SUCCESS,,/mnt/e/dishas_thesis_samplevolumes_and_labels/DICOM_AI_IVUS_200_14042026/122/dicom-00001.dcm,sample_data/122/122_VL1_cropped.dcm,947,1,300,0,299,300
+123,VL1,SUCCESS,,/mnt/e/dishas_thesis_samplevolumes_and_labels/DICOM_AI_IVUS_200_14042026/123/dicom-00001.dcm,sample_data/123/123_VL1_cropped.dcm,1005,1,400,0,399,400
+124,VL1,SUCCESS,,/mnt/e/dishas_thesis_samplevolumes_and_labels/DICOM_AI_IVUS_200_14042026/124/dicom-00001.dcm,sample_data/124/124_VL1_cropped.dcm,1839,450,850,449,849,401
+125,VL1,SUCCESS,,/mnt/e/dishas_thesis_samplevolumes_and_labels/DICOM_AI_IVUS_200_14042026/125/dicom-00001.dcm,sample_data/125/125_VL1_cropped.dcm,605,50,450,49,449,401
+126,VL1,SUCCESS,,/mnt/e/dishas_thesis_samplevolumes_and_labels/DICOM_AI_IVUS_200_14042026/126/dicom-00001.dcm,sample_data/126/126_VL1_cropped.dcm,598,1,390,0,389,390
+127,VL1,SUCCESS,,/mnt/e/dishas_thesis_samplevolumes_and_labels/DICOM_AI_IVUS_200_14042026/127/dicom-00001.dcm,sample_data/127/127_VL1_cropped.dcm,561,1,400,0,399,400
+128,VL1,SUCCESS,,/mnt/e/dishas_thesis_samplevolumes_and_labels/DICOM_AI_IVUS_200_14042026/128/dicom-00001.dcm,sample_data/128/128_VL1_cropped.dcm,678,150,500,149,499,351
+129,VL1,SUCCESS,,/mnt/e/dishas_thesis_samplevolumes_and_labels/DICOM_AI_IVUS_200_14042026/129/dicom-00001.dcm,sample_data/129/129_VL1_cropped.dcm,372,60,350,59,349,291
+130,VL1,SUCCESS,,/mnt/e/dishas_thesis_samplevolumes_and_labels/DICOM_AI_IVUS_200_14042026/130/dicom-00001.dcm,sample_data/130/130_VL1_cropped.dcm,1346,450,900,449,899,451
+131,VL1,SUCCESS,,/mnt/e/dishas_thesis_samplevolumes_and_labels/DICOM_AI_IVUS_200_14042026/131/dicom-00001.dcm,sample_data/131/131_VL1_cropped.dcm,559,100,450,99,449,351
+132,VL1,SUCCESS,,/mnt/e/dishas_thesis_samplevolumes_and_labels/DICOM_AI_IVUS_200_14042026/132/dicom-00001.dcm,sample_data/132/132_VL1_cropped.dcm,616,60,460,59,459,401
+133,VL1,SUCCESS,,/mnt/e/dishas_thesis_samplevolumes_and_labels/DICOM_AI_IVUS_200_14042026/133/dicom-00001.dcm,sample_data/133/133_VL1_cropped.dcm,762,160,550,159,549,391
+134,VL1,SUCCESS,,/mnt/e/dishas_thesis_samplevolumes_and_labels/DICOM_AI_IVUS_200_14042026/134/dicom-00001.dcm,sample_data/134/134_VL1_cropped.dcm,1046,100,500,99,499,401
+135,VL1,SUCCESS,,/mnt/e/dishas_thesis_samplevolumes_and_labels/DICOM_AI_IVUS_200_14042026/135/dicom-series-002-VL 2.dcm,sample_data/135/135_VL1_cropped.dcm,1262,400,900,399,899,501
+136,VL1,FAILED,"Out of bounds. start=299, end=799, total_frames=214",/mnt/e/dishas_thesis_samplevolumes_and_labels/DICOM_AI_IVUS_200_14042026/136/dicom-00001.dcm,sample_data/136/136_VL1_cropped.dcm,,300,800,299,799,
+137,VL1,SUCCESS,,/mnt/e/dishas_thesis_samplevolumes_and_labels/DICOM_AI_IVUS_200_14042026/137/dicom-00001.dcm,sample_data/137/137_VL1_cropped.dcm,988,300,700,299,699,401
+138,VL1,SUCCESS,,/mnt/e/dishas_thesis_samplevolumes_and_labels/DICOM_AI_IVUS_200_14042026/138/dicom-00001.dcm,sample_data/138/138_VL1_cropped.dcm,1067,200,600,199,599,401
+139,VL1,SUCCESS,,/mnt/e/dishas_thesis_samplevolumes_and_labels/DICOM_AI_IVUS_200_14042026/139/dicom-00001.dcm,sample_data/139/139_VL1_cropped.dcm,430,1,350,0,349,350
+140,VL1,SUCCESS,,/mnt/e/dishas_thesis_samplevolumes_and_labels/DICOM_AI_IVUS_200_14042026/140/dicom-00001.dcm,sample_data/140/140_VL1_cropped.dcm,1162,300,700,299,699,401
+141,VL1,SUCCESS,,/mnt/e/dishas_thesis_samplevolumes_and_labels/DICOM_AI_IVUS_200_14042026/141/dicom-00001.dcm,sample_data/141/141_VL1_cropped.dcm,1048,450,850,449,849,401
+142,VL1,FAILED,"Out of bounds. start=299, end=699, total_frames=38",/mnt/e/dishas_thesis_samplevolumes_and_labels/DICOM_AI_IVUS_200_14042026/142/dicom-00001.dcm,sample_data/142/142_VL1_cropped.dcm,,300,700,299,699,
+143,VL1,SUCCESS,,/mnt/e/dishas_thesis_samplevolumes_and_labels/DICOM_AI_IVUS_200_14042026/143/dicom-00001.dcm,sample_data/143/143_VL1_cropped.dcm,2079,250,750,249,749,501
+144,VL1,SUCCESS,,/mnt/e/dishas_thesis_samplevolumes_and_labels/DICOM_AI_IVUS_200_14042026/144/dicom-00001.dcm,sample_data/144/144_VL1_cropped.dcm,657,150,500,149,499,351
+145,VL1,SUCCESS,,/mnt/e/dishas_thesis_samplevolumes_and_labels/DICOM_AI_IVUS_200_14042026/145/dicom-00001.dcm,sample_data/145/145_VL1_cropped.dcm,578,150,400,149,399,251
+146,VL1,SUCCESS,,/mnt/e/dishas_thesis_samplevolumes_and_labels/DICOM_AI_IVUS_200_14042026/146/dicom-00001.dcm,sample_data/146/146_VL1_cropped.dcm,831,1,380,0,379,380
+147,VL1,SUCCESS,,/mnt/e/dishas_thesis_samplevolumes_and_labels/DICOM_AI_IVUS_200_14042026/147/dicom-00001.dcm,sample_data/147/147_VL1_cropped.dcm,1237,450,800,449,799,351
+148,VL1,SUCCESS,,/mnt/e/dishas_thesis_samplevolumes_and_labels/DICOM_AI_IVUS_200_14042026/148/dicom-00001.dcm,sample_data/148/148_VL1_cropped.dcm,779,350,700,349,699,351
+149,VL1,SUCCESS,,/mnt/e/dishas_thesis_samplevolumes_and_labels/DICOM_AI_IVUS_200_14042026/149/dicom-00001.dcm,sample_data/149/149_VL1_cropped.dcm,913,200,600,199,599,401
+150,VL1,FAILED,"Out of bounds. start=599, end=999, total_frames=167",/mnt/e/dishas_thesis_samplevolumes_and_labels/DICOM_AI_IVUS_200_14042026/150/dicom-00001.dcm,sample_data/150/150_VL1_cropped.dcm,,600,1000,599,999,
+151,VL1,SUCCESS,,/mnt/e/dishas_thesis_samplevolumes_and_labels/DICOM_AI_IVUS_200_14042026/151/dicom-00001.dcm,sample_data/151/151_VL1_cropped.dcm,1511,440,740,439,739,301
+152,VL1,SUCCESS,,/mnt/e/dishas_thesis_samplevolumes_and_labels/DICOM_AI_IVUS_200_14042026/152/dicom-00001.dcm,sample_data/152/152_VL1_cropped.dcm,1543,300,650,299,649,351
+153,VL1,SUCCESS,,/mnt/e/dishas_thesis_samplevolumes_and_labels/DICOM_AI_IVUS_200_14042026/153/dicom-00001.dcm,sample_data/153/153_VL1_cropped.dcm,1380,300,750,299,749,451
+154,VL1,SUCCESS,,/mnt/e/dishas_thesis_samplevolumes_and_labels/DICOM_AI_IVUS_200_14042026/154/dicom-00001.dcm,sample_data/154/154_VL1_cropped.dcm,1216,500,900,499,899,401
+155,VL1,SUCCESS,,/mnt/e/dishas_thesis_samplevolumes_and_labels/DICOM_AI_IVUS_200_14042026/155/dicom-00001.dcm,sample_data/155/155_VL1_cropped.dcm,957,150,550,149,549,401
+156,VL1,FAILED,"Out of bounds. start=249, end=689, total_frames=190",/mnt/e/dishas_thesis_samplevolumes_and_labels/DICOM_AI_IVUS_200_14042026/156/dicom-00001.dcm,sample_data/156/156_VL1_cropped.dcm,,250,690,249,689,
+157,VL1,SUCCESS,,/mnt/e/dishas_thesis_samplevolumes_and_labels/DICOM_AI_IVUS_200_14042026/157/dicom-00001.dcm,sample_data/157/157_VL1_cropped.dcm,1380,200,600,199,599,401
+158,VL1,SUCCESS,,/mnt/e/dishas_thesis_samplevolumes_and_labels/DICOM_AI_IVUS_200_14042026/158/dicom-00001.dcm,sample_data/158/158_VL1_cropped.dcm,1161,250,750,249,749,501
+159,VL1,SUCCESS,,/mnt/e/dishas_thesis_samplevolumes_and_labels/DICOM_AI_IVUS_200_14042026/159/dicom-00001.dcm,sample_data/159/159_VL1_cropped.dcm,910,250,650,249,649,401
+160,VL1,SUCCESS,,/mnt/e/dishas_thesis_samplevolumes_and_labels/DICOM_AI_IVUS_200_14042026/160/dicom-00001.dcm,sample_data/160/160_VL1_cropped.dcm,707,50,450,49,449,401
+161,VL1,SUCCESS,,/mnt/e/dishas_thesis_samplevolumes_and_labels/DICOM_AI_IVUS_200_14042026/161/dicom-00001.dcm,sample_data/161/161_VL1_cropped.dcm,809,250,650,249,649,401
+162,VL1,SUCCESS,,/mnt/e/dishas_thesis_samplevolumes_and_labels/DICOM_AI_IVUS_200_14042026/162/dicom-00001.dcm,sample_data/162/162_VL1_cropped.dcm,783,100,450,99,449,351
+163,VL1,SUCCESS,,/mnt/e/dishas_thesis_samplevolumes_and_labels/DICOM_AI_IVUS_200_14042026/163/dicom-00001.dcm,sample_data/163/163_VL1_cropped.dcm,1737,260,650,259,649,391
+164,VL1,SUCCESS,,/mnt/e/dishas_thesis_samplevolumes_and_labels/DICOM_AI_IVUS_200_14042026/164/dicom-00001.dcm,sample_data/164/164_VL1_cropped.dcm,1674,1,450,0,449,450
+165,VL1,SUCCESS,,/mnt/e/dishas_thesis_samplevolumes_and_labels/DICOM_AI_IVUS_200_14042026/165/dicom-00001.dcm,sample_data/165/165_VL1_cropped.dcm,472,1,300,0,299,300
+166,VL1,SUCCESS,,/mnt/e/dishas_thesis_samplevolumes_and_labels/DICOM_AI_IVUS_200_14042026/166/dicom-00001.dcm,sample_data/166/166_VL1_cropped.dcm,775,250,570,249,569,321
+167,VL1,SUCCESS,,/mnt/e/dishas_thesis_samplevolumes_and_labels/DICOM_AI_IVUS_200_14042026/167/dicom-00001.dcm,sample_data/167/167_VL1_cropped.dcm,2069,800,1300,799,1299,501
+168,VL1,SUCCESS,,/mnt/e/dishas_thesis_samplevolumes_and_labels/DICOM_AI_IVUS_200_14042026/168/dicom-00001.dcm,sample_data/168/168_VL1_cropped.dcm,847,150,500,149,499,351
+169,VL1,SUCCESS,,/mnt/e/dishas_thesis_samplevolumes_and_labels/DICOM_AI_IVUS_200_14042026/169/dicom-00001.dcm,sample_data/169/169_VL1_cropped.dcm,1013,150,500,149,499,351
+170,VL1,FAILED,"Out of bounds. start=149, end=589, total_frames=208",/mnt/e/dishas_thesis_samplevolumes_and_labels/DICOM_AI_IVUS_200_14042026/170/dicom-00001.dcm,sample_data/170/170_VL1_cropped.dcm,,150,590,149,589,
+171,VL1,SUCCESS,,/mnt/e/dishas_thesis_samplevolumes_and_labels/DICOM_AI_IVUS_200_14042026/171/dicom-00001.dcm,sample_data/171/171_VL1_cropped.dcm,1204,410,900,409,899,491
+172,VL1,SUCCESS,,/mnt/e/dishas_thesis_samplevolumes_and_labels/DICOM_AI_IVUS_200_14042026/172/dicom-00001.dcm,sample_data/172/172_VL1_cropped.dcm,779,1,430,0,429,430
+173,VL1,SUCCESS,,/mnt/e/dishas_thesis_samplevolumes_and_labels/DICOM_AI_IVUS_200_14042026/173/dicom-00001.dcm,sample_data/173/173_VL1_cropped.dcm,1327,250,600,249,599,351
+174,VL1,SUCCESS,,/mnt/e/dishas_thesis_samplevolumes_and_labels/DICOM_AI_IVUS_200_14042026/174/dicom-00001.dcm,sample_data/174/174_VL1_cropped.dcm,412,1,350,0,349,350
+175,VL1,SUCCESS,,/mnt/e/dishas_thesis_samplevolumes_and_labels/DICOM_AI_IVUS_200_14042026/175/dicom-00001.dcm,sample_data/175/175_VL1_cropped.dcm,903,500,830,499,829,331
+176,VL1,SUCCESS,,/mnt/e/dishas_thesis_samplevolumes_and_labels/DICOM_AI_IVUS_200_14042026/176/dicom-00001.dcm,sample_data/176/176_VL1_cropped.dcm,701,250,600,249,599,351
+177,VL1,SUCCESS,,/mnt/e/dishas_thesis_samplevolumes_and_labels/DICOM_AI_IVUS_200_14042026/177/dicom-00001.dcm,sample_data/177/177_VL1_cropped.dcm,1336,450,950,449,949,501
+178,VL1,SUCCESS,,/mnt/e/dishas_thesis_samplevolumes_and_labels/DICOM_AI_IVUS_200_14042026/178/dicom-00001.dcm,sample_data/178/178_VL1_cropped.dcm,968,250,650,249,649,401
+179,VL1,SUCCESS,,/mnt/e/dishas_thesis_samplevolumes_and_labels/DICOM_AI_IVUS_200_14042026/179/dicom-00001.dcm,sample_data/179/179_VL1_cropped.dcm,1187,650,1020,649,1019,371
+180,VL1,SUCCESS,,/mnt/e/dishas_thesis_samplevolumes_and_labels/DICOM_AI_IVUS_200_14042026/180/dicom-00001.dcm,sample_data/180/180_VL1_cropped.dcm,1864,400,800,399,799,401
+181,VL1,SUCCESS,,/mnt/e/dishas_thesis_samplevolumes_and_labels/DICOM_AI_IVUS_200_14042026/181/dicom-00001.dcm,sample_data/181/181_VL1_cropped.dcm,756,1,400,0,399,400
+182,VL1,SUCCESS,,/mnt/e/dishas_thesis_samplevolumes_and_labels/DICOM_AI_IVUS_200_14042026/182/dicom-00001.dcm,sample_data/182/182_VL1_cropped.dcm,1235,300,750,299,749,451
+183,VL1,SUCCESS,,/mnt/e/dishas_thesis_samplevolumes_and_labels/DICOM_AI_IVUS_200_14042026/183/dicom-00001.dcm,sample_data/183/183_VL1_cropped.dcm,2050,600,900,599,899,301
+184,VL1,SUCCESS,,/mnt/e/dishas_thesis_samplevolumes_and_labels/DICOM_AI_IVUS_200_14042026/184/dicom-00001.dcm,sample_data/184/184_VL1_cropped.dcm,1237,270,650,269,649,381
+185,VL1,SUCCESS,,/mnt/e/dishas_thesis_samplevolumes_and_labels/DICOM_AI_IVUS_200_14042026/185/dicom-00001.dcm,sample_data/185/185_VL1_cropped.dcm,787,1,400,0,399,400
+186,VL1,SUCCESS,,/mnt/e/dishas_thesis_samplevolumes_and_labels/DICOM_AI_IVUS_200_14042026/186/dicom-00001.dcm,sample_data/186/186_VL1_cropped.dcm,552,100,500,99,499,401
+187,VL1,SUCCESS,,/mnt/e/dishas_thesis_samplevolumes_and_labels/DICOM_AI_IVUS_200_14042026/187/dicom-00001.dcm,sample_data/187/187_VL1_cropped.dcm,1197,200,600,199,599,401
+188,VL1,SUCCESS,,/mnt/e/dishas_thesis_samplevolumes_and_labels/DICOM_AI_IVUS_200_14042026/188/dicom-00001.dcm,sample_data/188/188_VL1_cropped.dcm,734,250,690,249,689,441
+189,VL1,SUCCESS,,/mnt/e/dishas_thesis_samplevolumes_and_labels/DICOM_AI_IVUS_200_14042026/189/dicom-00001.dcm,sample_data/189/189_VL1_cropped.dcm,1069,250,600,249,599,351
+190,VL1,SUCCESS,,/mnt/e/dishas_thesis_samplevolumes_and_labels/DICOM_AI_IVUS_200_14042026/190/dicom-00001.dcm,sample_data/190/190_VL1_cropped.dcm,1085,1,500,0,499,500
+191,VL1,SUCCESS,,/mnt/e/dishas_thesis_samplevolumes_and_labels/DICOM_AI_IVUS_200_14042026/191/dicom-00001.dcm,sample_data/191/191_VL1_cropped.dcm,1387,50,400,49,399,351
+192,VL1,SUCCESS,,/mnt/e/dishas_thesis_samplevolumes_and_labels/DICOM_AI_IVUS_200_14042026/192/dicom-00001.dcm,sample_data/192/192_VL1_cropped.dcm,987,100,550,99,549,451
+193,VL1,SUCCESS,,/mnt/e/dishas_thesis_samplevolumes_and_labels/DICOM_AI_IVUS_200_14042026/193/dicom-00001.dcm,sample_data/193/193_VL1_cropped.dcm,1217,300,650,299,649,351
+194,VL1,SUCCESS,,/mnt/e/dishas_thesis_samplevolumes_and_labels/DICOM_AI_IVUS_200_14042026/194/dicom-00001.dcm,sample_data/194/194_VL1_cropped.dcm,804,1,390,0,389,390
+195,VL1,SUCCESS,,/mnt/e/dishas_thesis_samplevolumes_and_labels/DICOM_AI_IVUS_200_14042026/195/dicom-00001.dcm,sample_data/195/195_VL1_cropped.dcm,1039,400,750,399,749,351
+196,VL1,SUCCESS,,/mnt/e/dishas_thesis_samplevolumes_and_labels/DICOM_AI_IVUS_200_14042026/196/dicom-00001.dcm,sample_data/196/196_VL1_cropped.dcm,1001,400,800,399,799,401
+197,VL1,SUCCESS,,/mnt/e/dishas_thesis_samplevolumes_and_labels/DICOM_AI_IVUS_200_14042026/197/dicom-00001.dcm,sample_data/197/197_VL1_cropped.dcm,915,1,400,0,399,400
+198,VL1,SUCCESS,,/mnt/e/dishas_thesis_samplevolumes_and_labels/DICOM_AI_IVUS_200_14042026/198/dicom-00001.dcm,sample_data/198/198_VL1_cropped.dcm,1587,600,1000,599,999,401
+199,VL1,SUCCESS,,/mnt/e/dishas_thesis_samplevolumes_and_labels/DICOM_AI_IVUS_200_14042026/199/dicom-00001.dcm,sample_data/199/199_VL1_cropped.dcm,472,1,310,0,309,310
+200,VL1,SUCCESS,,/mnt/e/dishas_thesis_samplevolumes_and_labels/DICOM_AI_IVUS_200_14042026/200/dicom-00001.dcm,sample_data/200/200_VL1_cropped.dcm,970,400,750,399,749,351
